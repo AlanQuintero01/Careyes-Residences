@@ -1,0 +1,921 @@
+// Global styling for this template
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: $font-primary;
+  color: $secondary;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary;
+}
+
+h2{
+  font-size: 3.5rem !important;
+  font-family: $font-secondary;
+}
+
+p {
+  font-size: 1rem;
+  color: $primary;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav,
+footer {
+    background: $primary;
+    
+}
+
+.textR{
+  text-align: right;
+}
+
+footer{
+  font-size: .8rem;
+}
+
+
+.homesecondary{
+  text-align: center;
+  top: 50%;
+  z-index: 10;
+  right: -19%;
+}
+
+.homep{
+  z-index: 10;
+}
+
+.textrote{
+   -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+
+}
+
+
+.homefirst{
+		bottom: 10%;
+    z-index: 10;
+}
+
+
+.slideCoast{
+  bottom: 20%;
+  left: 53%;
+  position: absolute;
+}
+
+.borderSlide{
+  box-shadow: 3px 3px 2px #D8D8D8;
+}
+
+
+.indication{
+	position: absolute;
+	top: 88% !important;
+	width: 3% !important;
+	&Prev{
+     left: 89% !important; 
+	}
+	&Next{
+     right:  3% !important; 
+	}
+
+
+}
+
+#contact hr{
+    width: 80%;
+    background: $secondary;
+    margin: auto;
+
+}
+
+#inputSecondary hr{
+    width: 80%;
+    background: $secondary;
+    margin: auto;
+}
+
+.locationPrimary{
+    width: 80%;
+    background: $secondary;
+    margin: auto;
+
+}
+
+.locationSecondary{
+    width: 6%;
+    background: $primary;
+
+}
+
+.contactList {
+    list-style: none;
+    a {
+        color:$primary;
+    }
+}
+
+.contactList:hover {
+    list-style: none;
+    a {
+        color:$primary;
+    }
+}
+
+#contact,
+#contactResidences,
+#inputSecondary,
+#inputPrimary {
+    background-color: $bk;
+
+}
+
+
+.languages li{
+	display: inline;
+	list-style: none;
+
+}
+
+.primaryButton {
+  display: inline-block;
+  background: $primary;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: $secondary;
+  border-radius: 0;
+  padding: 15px 20px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid $secondary;
+}
+
+.primaryButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  background-position: 99% 50%;
+}
+
+
+.reservationsButton {
+  display: inline-block;
+  background: $primary;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: $secondary;
+  border-radius: 0;
+  padding: 5px 10px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid $secondary;
+}
+
+.reservationsButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  background-position: 99% 50%;
+}
+
+
+.textMark{
+  color:$secondary;
+}
+
+.imageD{
+  width: 75%;
+}
+
+.textShadow{
+  text-shadow: 3px 3px 2px #2E2E2E;
+}
+
+.newsletter{
+  border: 1px solid $secondary;
+  background:$bk;
+  border-right: transparent;
+
+}
+
+.contactButton {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: $secondary;
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid $secondary;
+  margin-left: -0.6rem;
+}
+
+.contactButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  background-position: 99% 50%;
+}
+
+.learButton {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: $secondary;
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid $secondary;
+  margin-left: -0.6rem;
+}
+
+.learButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  background-position: 99% 50%;
+}
+
+.pButton{
+  padding: .66rem;
+}
+
+
+.contactSecondaryButton {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3em;
+  color: $secondary;
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), $primary, $primary);
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 1px solid $secondary;
+  margin-left: -0.6rem;
+}
+
+.contactSecondaryButton:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  background-position: 99% 50%;
+}
+
+
+.textNow {
+  font-size: 6rem !important;
+  letter-spacing: 0.2em;
+  font-family: $font-primary !important;
+}
+
+.textNow2 {
+  font-size: 5rem !important;
+  letter-spacing: 0.2em;
+  font-family: $font-primary !important;
+
+}
+
+@include for-phone-only {
+  .textNow2,
+  .textNow{
+      font-size: 3.5rem !important;
+      }
+  }
+
+  @include for-phone-only {
+  .iconBar{
+      width: 50% !important;
+      }
+  }
+
+.primaryCont{
+  background-color: $bk;
+  height: 40%;
+}
+
+@include for-phone-only {
+  .primaryCont{
+      height: 40% !important;
+      }
+  }
+
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.imagen1{
+    margin-top: 89px;
+}
+.encima{
+    
+    position: absolute;
+}
+
+.realImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/Real-Estate/El-Careyes-Real-estate-cover.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.realText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.residenceText {
+  text-align: left;
+  top: 45%;
+  left: 2%;
+}
+
+.residenceIcon{
+  text-align: right;
+  top: 55%;
+  right: 5%;
+  z-index: 10;
+}
+
+.opacityMain{
+    filter:brightness(70%);
+}
+
+.imageOne,
+.imageTwo,
+.imageThree,
+.imageFour{
+  width: 100%;
+}
+
+
+.coastImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/Costa-Careyes/Costa-Careyes-Cover.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.coastText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.reservationImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/Reservations/El-Careyes-Reservations-cover.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.reservationText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 29.5%;
+  transform: translate(-50%, -50%);
+}
+
+
+.reyes1{
+  border-top: 3px solid;
+  color: $secondary;
+  width: 10%;
+}
+
+.learmore{
+  border: 1px solid $secondary;
+  border-right: transparent;
+  height: 3rem;
+}
+
+#club,
+#coast,
+#reserva,
+#residence{
+  background: $bk;
+}
+ 
+
+
+.menuActive{
+  color: $secondary !important;
+  border-bottom: 2px solid $secondary;
+}
+
+.textnav{
+  text-decoration: none;
+  color: #fff;
+}
+
+.textnav:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.borderCol{
+  border:1px solid $secondary;
+}
+
+progress{
+  height: 2px;
+}
+
+progress::-webkit-progress-value { 
+    background: $primary; 
+
+}   
+
+
+.pointer{
+  cursor:pointer;
+  width: 100%;
+}
+
+.borderBox{
+  border: 1px solid $secondary;
+}
+
+.line{
+  width: 10%;
+  background: $secondary;
+}
+
+.residenceButton{
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.residenceButton:hover{
+  color: #fff;
+  text-decoration: none;
+    border: 1px solid $secondary !important;
+}
+
+
+.keyResidences{
+  font-size: 2rem;
+  text-decoration: none !important;
+}
+.keyResidences:hover{
+  text-decoration: none !important;
+}
+
+.pButton{
+  padding:0.7rem !important;
+  padding-bottom: 0.680rem !important; 
+
+}
+
+.bT{
+    width: 100%;
+    background: $secondary;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 11rem;
+  }
+
+// .textLine{
+//   line-height: 1.5rem; 
+// }  
+
+
+.barPr{
+  background-color: $secondary !important;
+}
+
+.iconHand{
+  position:absolute;
+  z-index: 10;
+  right: 10%;
+  top: 155%;
+}
+
+#map{
+  width: 100%;
+  height: 22rem;
+}
+
+.slideprogress{
+  padding: 0rem 5rem;
+}
+
+@include for-phone-only {
+  .iconHand {
+    position:absolute;
+    z-index: 10;
+    right: 9%;
+    top: 145%;  }
+}
+
+@include for-phone-only {
+  .slideprogress {
+   padding: 0rem 0rem !important;
+  }
+}
+
+
+@include for-phone-only {
+  .imageBar {
+  width: 50% !important;
+  }
+}
+
+  #home-about-section {
+        .owl-nav {
+            display: none;
+        }
+
+        .owl-dots {
+            display: none;
+        }
+
+    
+            .text-book-now {
+                letter-spacing: 3px;
+                color: $secondary;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+
+
+            .home-stages-section-text {
+                bottom: 0;
+                position: absolute;
+                border: 1px solid $secondary;
+                background-color: $bk;
+                left: 3.9%;
+
+            }
+
+    #booking-information {
+        letter-spacing: 5px;
+        color: $secondary;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+
+        .icono-flecha{
+            width: 100%;
+            max-width: 80px;
+        }
+    } 
+
+  .color-progreso-dorado {
+        background-color: $secondary;
+    }
+
+    .porcentaje-cien {
+        width: 100%;
+    }
+
+    .porcentaje-cincuenta {
+        width: 66%;
+    }
+
+    .porcentaje-treinta {
+        width: 33%;
+    }
+
+svg#icon-swipe {
+  width: 72px;
+  height: 35px;
+  //padding: 2px 0px;
+  //border: 2px solid red;
+  
+  #hand {
+    fill: $secondary;
+    transform-origin: 50% 100%;
+    animation: hand-swipe 3.5s infinite ease;
+  }
+  #left, #right {
+    fill: $secondary;
+    opacity: 0;
+  }
+  #right { animation: arrow-right 3.5s infinite ease; }
+  #left { animation: arrow-left 3.5s infinite ease; }
+}
+
+@keyframes hand-swipe {
+  5% { transform: translateX(3px) rotate(6deg); }
+  25% { transform: translateX(0px) rotate(0deg); }
+  28% { transform: translateX(0px) rotate(0deg); }
+  33% { transform: translateX(-3px) rotate(-6deg); }
+  53% { transform: translateX(0px) rotate(0deg); }
+  100% { transform: translateX(0px) rotate(0deg); }
+}
+
+@keyframes arrow-right {
+  7% { transform: translateX(8px); opacity: 1; }
+  17% { transform: translateX(10px); opacity: 0; }
+  18%, 100% { transform: translateX(0); opacity: 0; }
+}
+
+@keyframes arrow-left {
+  0%, 30% { transform: translateX(0); opacity: 0; }
+  37% { transform: translateX(-8px); opacity: 1; }
+  47% { transform: translateX(-10px); opacity: 0; }
+  48%, 100% { transform: translateX(0); opacity: 0; }
+}
+
+@include for-phone-only {
+  .home-stages-section-text {
+      padding: .2rem !important;
+      left: 8%;
+  }
+}
+
+@include for-phone-only {
+  .home-stages-section-text h4,p {
+    font-size: .8rem !important;
+  }
+}
+
+@include for-phone-only {
+  #inputPrimary
+  #inputSecondary {
+   margin-left: 0rem;
+  }
+}
+@include for-phone-only {
+  .newsletter,
+  .learmore {
+   width: 80%;
+  border: 1px solid $secondary;
+  }
+}
+@include for-phone-only {
+  .contactButton {
+   margin-left: 2.5rem;
+  }
+}
+
+@include for-phone-only {
+  .fondo-home-about-section {
+   padding: 0rem  !important;
+  }
+}
+
+@include for-phone-only {
+  .fondo-home-about-section h2 {
+   font-size: 2.5rem  !important;
+  }
+}
+
+
+@include for-phone-only {
+  .slideHome {
+   margin-top: 5rem;
+  }
+}
+
+@include for-phone-only {
+  .titleCarouse {
+   font-size: 1.5rem !important; 
+  }
+}
+
+@include for-phone-only {
+  .paragraphCarouse {
+   font-size: .75rem !important;
+  }
+}
+
+@include for-phone-only {
+  .indicationPrev {
+   left: 70%!important;
+  }
+}
+.indLeftMainSlider {
+    position: absolute;
+    top: 88% !important;
+    width: 8% !important;
+}
+
+@include for-phone-only {
+  .text-m {
+   text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2.2rem !important;
+  }
+}
+
+@include for-phone-only {
+  .reservationText,
+  .realText,
+  .coastText {
+   left: 50% !important;
+  }
+}
+
+@include for-phone-only {
+  .slideCoast {
+   bottom: 80%;
+   left: 0%;
+   position: initial;
+
+  }
+}
+
+@include for-phone-only {
+  .imageM{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contactButton,
+  .contactSecondaryButton,
+  .learButton{
+    letter-spacing: 0rem;
+  }
+}
+
+@include for-phone-only {
+  .slideResidences{
+    margin-top: 8rem;
+  }
+}
+
+@include for-phone-small-only {
+  .slideResidences{
+    margin-top: 6rem;
+  }
+}
+
+@include for-phone-small-only {
+  .residenceText{
+  text-align: left;
+  top: 13% !important;  }
+}
+
+@include for-phone-only {
+  .residenceText{
+text-align: left;
+  top: 15%;  }
+}
+
+@include for-phone-only {
+  .titleResidence{
+    font-size: 1.2rem !important;
+  }
+}
+
+@include for-phone-only {
+  .paragraphResidence{
+    font-size: .7rem !important;
+  }
+}
+
+@include for-phone-only {
+  .residenceIcon{
+text-align: right;
+  top: 27%;
+  right: 3%;
+  font-size: .5rem !important;
+    }
+}
+
+@include for-phone-small-only {
+  .residenceIcon{
+  text-align: right;
+  top: 25%;
+  right: 3%;
+  font-size: .5rem !important;
+    }
+}
+
+@include for-phone-only {
+  .residenceButton{
+    font-size: .4rem !important;
+  }
+}
+
+
+@include for-phone-only {
+  .keyResidences{
+    font-size: .8rem !important;
+  }
+}
+
+@include for-phone-only {
+ .moreResidence{
+    font-size: .5rem !important;
+    margin-bottom: 0rem !important;
+  }
+}
+
+@include for-phone-only {
+  .imageOne,
+  .imageTwo,
+  .imageThree,
+  .imageFour{
+    margin: 1rem 0rem !important;
+  }
+}
+
+
+@include for-phone-only {
+  .slideHome,
+  .reservationImage,
+  .coastImage,
+  .realImage {
+    margin-top: 5.5rem;
+  }
+}
+
+@include for-phone-only {
+  .slideHome,
+  .reservationImage,
+  .coastImage,
+  .realImage {
+    margin-top: 4rem;
+  }
+}
+
+@include for-phone-small-only {
+  .reservationImage {
+    margin-top: 6rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .coastText {
+    left: 45% !important;
+  }
+}
+
+@include for-phone-only {
+  h2 {
+    font-size: 2.2rem !important;
+  }
+}
+
+
