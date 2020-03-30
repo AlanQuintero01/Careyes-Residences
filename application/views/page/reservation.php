@@ -5,15 +5,13 @@
 </div>
 
 <section id="reserva">
-        <div  class="container-fluid mb-5" data-aos="zoom-out" data-aos-duration="1000">
+        <div  class="container mb-5" data-aos="zoom-out" data-aos-duration="1000">
             <div class="row">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <div>
-                        <h3 class="mt-5"><?php echo lang('sectionClubRestitle') ?></h3>
-                        <hr class="reyes1"> 
-                    </div>
+                <div class="col-md-6">
+                        <h3 class="mt-5 h1"><?php echo lang('sectionClubRestitle') ?></h3>
+                        <hr class="reyes1">
                 </div>
-                <div class="col-md-4 my-auto" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="col-md-6 my-auto" data-aos="zoom-out" data-aos-duration="1000">
                     <p class="text-justify mt-5"><?php echo lang('sectionClubResparagraph1') ?></p>
                     <p class="text-justify mb-5"><?php echo lang('sectionClubResparagraph2') ?></p>
                 </div>
@@ -24,7 +22,7 @@
     <section>
         <div class="container">
             <?php foreach ($arrayactivos as $element): ?>
-                <div class="row borderCol mb-5" data-aos="flip-down" data-aos-duration="500">
+                <div class="row borderCol mb-5">
                     <div class="col-md-5 pl-0 pr-0">
                         <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><img align="left" class="w-100 img-fluid" src="<?php echo base_url(). $element->path_image ?>" alt=""></a>
                     </div>
@@ -34,8 +32,8 @@
                         <img class="ml-auto img-fluid w-100" src="<?php echo base_url('assets/img/iconos/Grupo 126.png')?>" alt="">
                     </div>
                     <div class="col-md-3 text-center my-auto">
-                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><button class="reservationsButton"><?php echo lang('readmore') ?>></button></a>
-                        <button class="reservationsButton"><?php echo lang('bookNow') ?>></button>
+                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><button class="reservationsButton"><?php echo lang('readmore') ?></button></a>
+                        <button class="reservationsButton"><?php echo lang('bookNow') ?></button>
                     </div>
                 </div>
         <?php endforeach ?>

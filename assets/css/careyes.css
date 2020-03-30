@@ -10007,6 +10007,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #1B365D;
 }
 
+input::-webkit-input-placeholder {
+  font-size: .9rem !important;
+}
+
+input::-moz-placeholder {
+  font-size: .9rem !important;
+}
+
+input:-ms-input-placeholder {
+  font-size: .9rem !important;
+}
+
+input::-ms-input-placeholder {
+  font-size: .9rem !important;
+}
+
+input::placeholder {
+  font-size: .9rem !important;
+}
+
 h2 {
   font-size: 3.5rem !important;
   font-family: "Ibarra Real Nova";
@@ -10059,6 +10079,14 @@ footer {
 .homefirst {
   bottom: 10%;
   z-index: 10;
+  left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homefirst {
+    left: 0% !important;
+    bottom: 15% !important;
+  }
 }
 
 .slideCoast {
@@ -10104,7 +10132,7 @@ footer {
 }
 
 .locationSecondary {
-  width: 6%;
+  width: 3%;
   background: #1B365D;
 }
 
@@ -10139,7 +10167,6 @@ footer {
 .primaryButton {
   display: inline-block;
   background: #1B365D;
-  text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.3em;
@@ -10165,7 +10192,6 @@ footer {
 .reservationsButton {
   display: inline-block;
   background: #1B365D;
-  text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.3em;
@@ -10208,7 +10234,6 @@ footer {
 
 .contactButton {
   display: inline-block;
-  text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.3em;
@@ -10233,7 +10258,6 @@ footer {
 
 .learButton {
   display: inline-block;
-  text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.3em;
@@ -10262,7 +10286,6 @@ footer {
 
 .contactSecondaryButton {
   display: inline-block;
-  text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.3em;
@@ -10414,7 +10437,7 @@ footer {
 .reyes1 {
   border-top: 3px solid;
   color: #DFBE6A;
-  width: 10%;
+  width: 5%;
 }
 
 .learmore {
@@ -10467,8 +10490,9 @@ progress::-webkit-progress-value {
 }
 
 .line {
-  width: 10%;
+  width: 3%;
   background: #DFBE6A;
+  height: 2px;
 }
 
 .residenceButton {
@@ -10512,10 +10536,8 @@ progress::-webkit-progress-value {
 }
 
 .iconHand {
-  position: absolute;
   z-index: 10;
   right: 10%;
-  top: 155%;
 }
 
 #map {
@@ -10532,7 +10554,6 @@ progress::-webkit-progress-value {
     position: absolute;
     z-index: 10;
     right: 9%;
-    top: 145%;
   }
 }
 
@@ -10751,20 +10772,22 @@ svg#icon-swipe #left {
 
 @media only screen and (max-width: 600px) {
   #inputPrimary #inputSecondary {
-    margin-left: 0rem;
+    margin: 0rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .newsletter,
   .learmore {
-    width: 80%;
+    width: 70%;
     border: 1px solid #DFBE6A;
+    border-right: transparent;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .contactButton {
+  .contactButton,
+  .contactSecondaryButton {
     margin-left: 2.5rem;
   }
 }
@@ -10789,13 +10812,13 @@ svg#icon-swipe #left {
 
 @media only screen and (max-width: 600px) {
   .titleCarouse {
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .paragraphCarouse {
-    font-size: .75rem !important;
+    font-size: 1rem !important;
   }
 }
 
@@ -10859,16 +10882,17 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 324px) {
+@media only screen and (max-width: 400px) {
   .slideResidences {
-    margin-top: 6rem;
+    margin-top: 6.8rem !important;
   }
 }
 
-@media only screen and (max-width: 324px) {
+@media only screen and (max-width: 400px) {
   .residenceText {
     text-align: left;
-    top: 13% !important;
+    top: 17% !important;
+    left: 0% !important;
   }
 }
 
@@ -10876,6 +10900,7 @@ svg#icon-swipe #left {
   .residenceText {
     text-align: left;
     top: 15%;
+    left: 0% !important;
   }
 }
 
@@ -10900,7 +10925,7 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 324px) {
+@media only screen and (max-width: 400px) {
   .residenceIcon {
     text-align: right;
     top: 25%;
@@ -10955,7 +10980,7 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 324px) {
+@media only screen and (max-width: 400px) {
   .reservationImage {
     margin-top: 6rem;
   }

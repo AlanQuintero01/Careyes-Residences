@@ -3,7 +3,7 @@
         <div class="col-md-12" data-aos="fade-up" data-aos-duration="1500">
             <hr class="my-5">
             <div class="d-flex">
-                <p class="m-auto"><?php echo lang('sing') ?>
+                <p class="m-auto text-center"><?php echo lang('sing') ?>
                     <br> 
                     <?php echo lang('news') ?>
                     <br>

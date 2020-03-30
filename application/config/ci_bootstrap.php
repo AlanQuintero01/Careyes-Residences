@@ -54,7 +54,7 @@ $config['ci_bootstrap'] = array(
 	
 	// Multilingual settings
 	'languages' => array(
-		'default'		=> 'en',
+		'default'		=> 'es',
 		'autoload'		=> array('general'),
 		'available'		=> array(
 			'en' => array(

@@ -10,10 +10,25 @@
     
     //Careyes 
     //Section SlideCareyes
-    $lang['titleSlide1'] = "EL CAREYES<br>CLUB & RESIDENCES";
-	$lang['paragraphSlide1'] = "With the most amazing and surreal architecture.<br>Costa Careyes is a magical protected estate and<br>community created by Gian Franco Brignone. ";
-	$lang['paragraphSlide2'] = "Tucked into the lush tropical hills above Playa Rosa<br>Beach Club, the Kaleidoscpe colored Casita de las<br>Flores in Costa Careyes feature ocean views.";
-	$lang['paragraphSlide3'] = "Tucked into the lush tropical hills above Playa Rosa<br>Beach Club, the Kaleidoscpe colored Casita de las<br>Flores in Costa Careyes feature ocean views.";
+   $lang['titleSlide1'] = "EL CAREYES";
+    $lang['titleSlide2'] = "ATARDECERES <BR> MÁGICOS";
+    $lang['titleSlide3'] = "ARQUITECTURA<BR> SURREALISTA";
+    $lang['titleSlide4'] = "CONFORT<BR> INIGUALABLE";
+    $lang['titleSlide5'] = "LA PLAYA";
+	$lang['paragraphSlide1'] = "Es un escaparate de naturaleza salvaje, estilo de vida extraordinario,<BR> arquitectura surrealista y un toque de magia para tu vida.";
+	$lang['paragraphSlide2'] = "Estancia única con vista inigualable y un gran confort,<br> con ello podrás disfrutar de las magníficas postales de cada atardecer.";
+	$lang['paragraphSlide3'] = "Una reserva con +60 castillos, villas y casitas con arquitectura excepcional<br> diseñadas para recibirte con la inigualable hospitalidad mexicana.";
+	$lang['paragraphSlide4'] = "Tenemos un increíble servicio que te hará sentir como en casa,<br> con espacios únicos para descansar y dejarte llevar.";
+	$lang['paragraphSlide5'] = "Tenemos acceso privado a la playa, tienes todo<br> en un solo lugar para que puedas disfrutar de <br> diversas actividades que tenemos para ti.";
+		// Section Slide Progress Bar 
+    $lang['titleAboutCareyesBar'] = "ABOUT<br><b class='textMark'>CAREYES</b><br>CLUB &<br> RESIDENCES";
+	$lang['paragraphAboutCareyesBar'] = "Costa Careyes is a magical protected estate and community created by GianFranco Brignone, an extraordinary man with amazing vision. Flying over this coast in 1968 he fell in love with it and never left. Together with his family the dream continues, building a unique threshold between community, nature, wellbeing & art.</p> <p>With the most amazing and surreal architecture, Costa Careyes is also home to <span class='textMark'>amazing art projects like its cultural plaza,</span>  its beautiful Art Gallery which has hosted incredible artists and of course Arte Careyes, a 10 day film festival that includes music and contemporary art in this most inspiring setting.";
+	$lang['TitleaboutPicnicBar'] = "PICNIC";
+	$lang['aboutPicnicBar'] = "Exclusive area to relax";
+	$lang['TitleaboutFoodBar'] = "FOOD AREA";
+	$lang['aboutFoodBar'] = "Restaurant, Bar & Coffe";
+	$lang['TitleaboutBeachBar'] = "PRIVATE BEACH";
+	$lang['aboutAccessBar'] = "Exclusive access";
 
 	//Section RealEstate
 	$lang['place'] = "THIS PLACE IS MADE OF +60 CASTLES, HOUSES & CASITAS";
@@ -65,6 +80,14 @@
 	$lang['sectionSlide1paragraph'] = "For over 33 years, sea turtles arriving to nest in Careyes have been protected by <b class='textMark'>Brignone Family</b> Careyes residents and a dedicated team of locals.<br> To date, 16,579 nests have been protected and more than 1,350,000 newborn turtles from four xdifferent species.";
 	$lang['sectionSlide2title'] = "Chamela - Cuixmala";
 	$lang['sectionSlide2paragraph'] = "Costa Careyes is located ash the center of the <b class='textMark'>Chamela - Cuixmala Biosphere</b> and so has a special compromise with the preservation of all wildlife that inhabits it 13,000 hectares of boundless nature, endless virgin beaches and breathtaking beauty. Creating with this a unique place in the world.";
+	$lang['sectionSlide3title'] = "KAYAK & BUCEO";
+	$lang['sectionSlide3paragraph'] = "Sumérgete en el mundo acuático a través de diversas actividades para activar su lado más aventurero. Ideal para los amantes del mar sin importar qué tan principiante o experto seas.</b> <br><br> * Consulta el calendario de actividades con el Concierge de Club Careyes.";
+	
+	$lang['sectionSlide4title'] = "TENNIS & GOLF";
+	$lang['sectionSlide4paragraph'] = "Pon en práctica tus mejores movimientos a través de nuestras clases y juegos en un entorno con paisajes espectaculares.</b> <br><br> * Consulta el calendario de actividades con el Concierge de Club Careyes.";
+	
+	$lang['sectionSlide5title'] = "YOGA & SPA";
+	$lang['sectionSlide5paragraph'] = "Descubre tu lado más espiritual a través de una experiencia totalmente relajante en comunión con la naturaleza. Desconéctate en Costa Careyes</b><br> <br>* Consulta el calendario de actividades con el Concierge de Club Careyes.";
 
 
 	//Contact
@@ -91,3 +114,5 @@
 	$lang['Subs'] = "SUBSCRIBE";
 	$lang['direc'] = "Carretera Barra de Careyes<br>Km 53.5, 46930 Navidad, Jal.";
 	$lang['TitleLocation'] = "LOCATION";
+	$lang['lastPacific'] = "ONE OF THE LAST EDENS OF THE PACIFIC";
+

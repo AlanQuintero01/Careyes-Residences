@@ -8,10 +8,8 @@
         <div  class="container mb-5" >
             <div class="row">
                 <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
-                    <div>
-                        <h3 class="mt-5 textMark"><?php echo lang('sectionClubtitle') ?></h3>
+                        <h3 class="mt-5 h1"><?php echo lang('sectionClubtitle') ?></h3>
                         <hr class="reyes1"> 
-                    </div>
                 </div>
                 <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
                     <p class="mt-5 mb-5 text-justify "><?php echo lang('sectionClubparagraph') ?></p>
@@ -46,7 +44,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-md-6">
-                    <h3><?php echo lang('sectionCareyestitle') ?></h3>
+                    <h3 class="h1"><?php echo lang('sectionCareyestitle') ?></h3>
                     <hr class="mt-3 reyes1">
                 </div>
                 <div class="col-md-6">
@@ -65,7 +63,7 @@
                         <h2><?php echo lang('sectionLearntitle') ?></h2>
                         <br>
                             <input class="learmore mr-0 p-2 px-5" type="email" id="email" name="email" placeholder="<?php echo lang('sectionLearninput') ?>">
-                            <button class="learButton pButton" type="submit">SEND</button>
+                            <button class="learButton pButton" type="submit"><?php echo lang('sectionLearnbutton') ?></button>
                 </div>
                 <div class="col-md-5 mb-5" data-aos="zoom-in-down" data-aos-duration="1500">
                     <img class="img-fluid w-100" src="<?php echo base_url('assets/img/Real-Estate/El-Careyes-Real-estate-learn-more.jpg')?>" alt="">

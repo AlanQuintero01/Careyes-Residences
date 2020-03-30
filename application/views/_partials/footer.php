@@ -25,7 +25,7 @@
                 <div class="col-md-4 p-2 d-flex justify-content-center align-items-center">
                         <a class="mx-2" target="_blank" href="https://www.instagram.com/elcareyes_clubandresidences/"><img src="<?php echo base_url('assets/img/iconos/instagram.png') ?>"></a>
 						<a class="mx-2" target="_blank" href="#"><img src="<?php echo base_url('assets/img/iconos/twitter.png') ?>"></a>
-                        <a class="mx-2" target="_blank" href="#"><img src="<?php echo base_url('assets/img/iconos/whatsapp.png') ?>"></a>
+                        <a class="mx-2" target="_blank" href="https://wa.me/5213153510000?text=Esto es una prueba para la Pagina Web"><img src="<?php echo base_url('assets/img/iconos/whatsapp.png') ?>"></a>
                         <a class="mx-2" target="_blank" href="https://www.facebook.com/pages/category/Local-Business/El-Careyes-Club-Residences-1261260937307887/"><img src="<?php echo base_url('assets/img/iconos/facebook.png') ?>"></a>
                 </div>
                 <div class="col-md-4 text-m p-2 text-white textR">

@@ -3,7 +3,7 @@
 	<div class="container-fluid px-0 slideResidences">
 		<img class="w-100 img-fluid opacityMain" src="<?php echo base_url(). $Relement->path_image ?>">
 			<div class="row">
-				<div class="col-md-8 position-absolute residenceText px-0" data-aos="zoom-in-right" data-aos-duration="2000">
+				<div class="col-md-8 position-absolute residenceText" data-aos="zoom-in-right" data-aos-duration="2000">
 					<h2 class="ml-5 text-white titleResidence"><b><?php echo $Relement->title?></b></h2>
 					<p class="ml-5 text-white paragraphResidence"><?php echo $Relement->descriptionResidence?></p>
 					<button type="button" class="ml-5 mt-2 primaryButton d-none d-md-block"><?php echo lang('bookNow') ?></button>
