@@ -1,5 +1,5 @@
   <section id="contact">
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-3">
             <div class="row py-5 d-flex align-items-center justify-content-center">
                 <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
                     <h2 class="text-center"><b><?php echo lang('sectionContacttitle') ?></b></h2>

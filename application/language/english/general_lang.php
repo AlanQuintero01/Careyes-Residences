@@ -51,7 +51,7 @@
 
     //Real Estate
 	//Header Real Estate
-	$lang['titleReal'] = "<b>REAL STATE</b>";
+	$lang['titleReal'] = "<b>REAL ESTATE</b>";
 
 	//Section Club
 	$lang['sectionClubtitle'] = "Club & Residences";

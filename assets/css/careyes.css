@@ -10007,24 +10007,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #1B365D;
 }
 
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
 input::-webkit-input-placeholder {
   font-size: .9rem !important;
+  font-family: "Poppins", sans-serif;
 }
 
 input::-moz-placeholder {
   font-size: .9rem !important;
+  font-family: "Poppins", sans-serif;
 }
 
 input:-ms-input-placeholder {
   font-size: .9rem !important;
+  font-family: "Poppins", sans-serif;
 }
 
 input::-ms-input-placeholder {
   font-size: .9rem !important;
+  font-family: "Poppins", sans-serif;
 }
 
 input::placeholder {
   font-size: .9rem !important;
+  font-family: "Poppins", sans-serif;
 }
 
 h2 {
@@ -10035,6 +10048,7 @@ h2 {
 p {
   font-size: 1rem;
   color: #1B365D;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -10051,6 +10065,7 @@ a {
 nav,
 footer {
   background: #1B365D;
+  font-family: "Poppins", sans-serif;
 }
 
 .textR {
@@ -10181,6 +10196,7 @@ footer {
   margin: 0.625rem;
   border: none;
   border: 1px solid #DFBE6A;
+  font-family: "Poppins", sans-serif;
 }
 
 .primaryButton:hover {
@@ -10206,6 +10222,7 @@ footer {
   margin: 0.625rem;
   border: none;
   border: 1px solid #DFBE6A;
+  font-family: "Poppins", sans-serif;
 }
 
 .reservationsButton:hover {
@@ -10248,6 +10265,11 @@ footer {
   border: none;
   border: 1px solid #DFBE6A;
   margin-left: -0.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#club h3 {
+  font-family: "Poppins", sans-serif;
 }
 
 .contactButton:hover {
@@ -10268,10 +10290,11 @@ footer {
   background-position: 1% 50%;
   background-size: 300% 300%;
   text-decoration: none;
-  margin: 0.625rem;
+  margin: 0.7rem;
   border: none;
   border: 1px solid #DFBE6A;
   margin-left: -0.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .learButton:hover {
@@ -10300,6 +10323,7 @@ footer {
   border: none;
   border: 1px solid #DFBE6A;
   margin-left: -0.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .contactSecondaryButton:hover {
@@ -10312,18 +10336,20 @@ footer {
   font-size: 6rem !important;
   letter-spacing: 0.2em;
   font-family: "Poppins", sans-serif !important;
+  word-spacing: 0.05rem;
 }
 
 .textNow2 {
   font-size: 5rem !important;
   letter-spacing: 0.2em;
   font-family: "Poppins", sans-serif !important;
+  word-spacing: 0.05rem;
 }
 
 @media only screen and (max-width: 600px) {
   .textNow2,
   .textNow {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
   }
 }
 
@@ -10453,6 +10479,36 @@ footer {
   background: #F7FDFF;
 }
 
+@media only screen and (max-width: 600px) {
+  .galleryMovil {
+    position: absolute;
+    top: -36%;
+    margin: 0px;
+    width: 94.5% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .galleryMovil {
+    position: absolute;
+    top: -32%;
+    margin: 0px;
+    width: 93% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .galleryMov {
+    margin: 2.5rem 0px 0rem 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .galleryMov {
+    margin: 2.5rem 0px 0rem 0px;
+  }
+}
+
 .menuActive {
   color: #DFBE6A !important;
   border-bottom: 2px solid #DFBE6A;
@@ -10461,11 +10517,13 @@ footer {
 .textnav {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 0.1rem;
 }
 
 .textnav:hover {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 0.1rem;
 }
 
 .borderCol {
@@ -10531,6 +10589,18 @@ progress::-webkit-progress-value {
   margin-bottom: 11rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .bT {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bT {
+    margin-bottom: 1rem !important;
+  }
+}
+
 .barPr {
   background-color: #DFBE6A !important;
 }
@@ -10587,7 +10657,6 @@ progress::-webkit-progress-value {
 .home-stages-section-text {
   bottom: 0;
   position: absolute;
-  border: 1px solid #DFBE6A;
   background-color: #F7FDFF;
   left: 3.9%;
 }
@@ -10776,10 +10845,14 @@ svg#icon-swipe #left {
   }
 }
 
+.letter {
+  letter-spacing: 0.25rem;
+}
+
 @media only screen and (max-width: 600px) {
   .newsletter,
   .learmore {
-    width: 70%;
+    width: 75%;
     border: 1px solid #DFBE6A;
     border-right: transparent;
   }
@@ -10789,6 +10862,42 @@ svg#icon-swipe #left {
   .contactButton,
   .contactSecondaryButton {
     margin-left: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  input::-webkit-input-placeholder {
+    font-size: .7rem !important;
+  }
+  input::-moz-placeholder {
+    font-size: .7rem !important;
+  }
+  input:-ms-input-placeholder {
+    font-size: .7rem !important;
+  }
+  input::-ms-input-placeholder {
+    font-size: .7rem !important;
+  }
+  input::placeholder {
+    font-size: .7rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  input::-webkit-input-placeholder {
+    font-size: .7rem !important;
+  }
+  input::-moz-placeholder {
+    font-size: .7rem !important;
+  }
+  input:-ms-input-placeholder {
+    font-size: .7rem !important;
+  }
+  input::-ms-input-placeholder {
+    font-size: .7rem !important;
+  }
+  input::placeholder {
+    font-size: .7rem !important;
   }
 }
 
@@ -10876,6 +10985,14 @@ svg#icon-swipe #left {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .contactButton,
+  .contactSecondaryButton,
+  .learButton {
+    letter-spacing: 0rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .slideResidences {
     margin-top: 8rem;
@@ -10891,7 +11008,7 @@ svg#icon-swipe #left {
 @media only screen and (max-width: 400px) {
   .residenceText {
     text-align: left;
-    top: 17% !important;
+    top: 20% !important;
     left: 0% !important;
   }
 }
@@ -10899,27 +11016,39 @@ svg#icon-swipe #left {
 @media only screen and (max-width: 600px) {
   .residenceText {
     text-align: left;
-    top: 15%;
+    top: 25%;
     left: 0% !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .titleResidence {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .paragraphResidence {
-    font-size: .7rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .titleResidence {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .paragraphResidence {
+    font-size: 1rem !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .residenceIcon {
     text-align: right;
-    top: 27%;
+    top: 37%;
     right: 3%;
     font-size: .5rem !important;
   }
@@ -10928,7 +11057,7 @@ svg#icon-swipe #left {
 @media only screen and (max-width: 400px) {
   .residenceIcon {
     text-align: right;
-    top: 25%;
+    top: 32%;
     right: 3%;
     font-size: .5rem !important;
   }
@@ -10936,13 +11065,13 @@ svg#icon-swipe #left {
 
 @media only screen and (max-width: 600px) {
   .residenceButton {
-    font-size: .4rem !important;
+    font-size: .8rem !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .keyResidences {
-    font-size: .8rem !important;
+    font-size: 1rem !important;
   }
 }
 

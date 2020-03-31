@@ -5,10 +5,11 @@
 </div>
 
 <section id="reserva">
-        <div  class="container mb-5" data-aos="zoom-out" data-aos-duration="1000">
+        <div  class="container py-3" data-aos="zoom-out" data-aos-duration="1000">
             <div class="row">
                 <div class="col-md-6">
-                        <h3 class="mt-5 h1"><?php echo lang('sectionClubRestitle') ?></h3>
+                        <h3 class="mt-5 h1 d-none d-md-block letter"><?php echo lang('sectionClubtitle') ?></h3>
+                        <h3 class="mt-5 d-block d-md-none"><?php echo lang('sectionClubtitle') ?></h3>
                         <hr class="reyes1">
                 </div>
                 <div class="col-md-6 my-auto" data-aos="zoom-out" data-aos-duration="1000">
@@ -20,7 +21,7 @@
     </section>
      
     <section>
-        <div class="container">
+        <div class="container mt-3">
             <?php foreach ($arrayactivos as $element): ?>
                 <div class="row borderCol mb-5">
                     <div class="col-md-5 pl-0 pr-0">

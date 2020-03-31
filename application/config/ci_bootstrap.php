@@ -57,13 +57,13 @@ $config['ci_bootstrap'] = array(
 		'default'		=> 'es',
 		'autoload'		=> array('general'),
 		'available'		=> array(
-			'en' => array(
-				'label'	=> 'EN',
-				'value'	=> 'english'
-			),
 			'es' => array(
 				'label'	=> 'ES',
 				'value' => 'spanish'
+			),
+			'en' => array(
+				'label'	=> 'EN',
+				'value'	=> 'english'
 			)
 		)
 	),

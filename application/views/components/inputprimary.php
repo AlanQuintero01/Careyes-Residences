@@ -18,7 +18,7 @@
 <section class="d-block d-md-none">
     <div class="row" id="inputPrimary">
         <div class="col-md-12" data-aos="fade-up" data-aos-duration="1500">
-            <hr class="my-5">
+            <hr class="mb-4">
             <p class="text-center"><?php echo lang('sing') ?>
                 <br> 
                 <?php echo lang('news') ?>

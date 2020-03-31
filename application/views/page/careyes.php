@@ -9,7 +9,7 @@
 								<div class="row">
 									<div class="col-md-12" data-aos="zoom-in-right" data-aos-duration="2000">
 										<h2 class="titleCarouse text-white textShadow"><b><?php echo lang('titleSlide1') ?></b></h2>
-                                    <p class="paragraphCarouse text-white"><?php echo lang('paragraphSlide1') ?></p>
+                                    <p class="paragraphCarouse text-white h5 text-justify"><?php echo lang('paragraphSlide1') ?></p>
                                     <button type="button" class="primaryButton"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -21,7 +21,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white textShadow"><b><?php echo lang('titleSlide2') ?></b></h2>
-                                    <p class="paragraphCarouse text-white"><?php echo lang('paragraphSlide2') ?></p>
+                                    <p class="paragraphCarouse text-white h5 text-justify"><?php echo lang('paragraphSlide2') ?></p>
                                     <button type="button" class="primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -33,7 +33,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white textShadow"><b><?php echo lang('titleSlide3') ?></b></h2>
-                                    <p class="paragraphCarouse text-white"><?php echo lang('paragraphSlide3') ?></p>
+                                    <p class="paragraphCarouse text-white h5 text-justify"><?php echo lang('paragraphSlide3') ?></p>
                                     <button type="button" class="primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -45,7 +45,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white textShadow"><b><?php echo lang('titleSlide4') ?></b></h2>
-                                    <p class="paragraphCarouse text-white"><?php echo lang('paragraphSlide4') ?></p>
+                                    <p class="paragraphCarouse text-white h5 text-justify"><?php echo lang('paragraphSlide4') ?></p>
                                     <button type="button" class="primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -58,7 +58,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white textShadow"><b><?php echo lang('titleSlide5') ?></b></h2>
-                                    <p class="paragraphCarouse text-white"><?php echo lang('paragraphSlide5') ?></p>
+                                    <p class="paragraphCarouse text-white h5 text-justify"><?php echo lang('paragraphSlide5') ?></p>
                                     <button type="button" class="primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -79,7 +79,7 @@
 		</div>
         <div class="row">
             <div class="col-md-12 text-center mt-3">
-                <h5><?php echo lang('lastPacific') ?></h5>
+                <h5 class="letter"><?php echo lang('lastPacific') ?></h5>
             </div>
         </div>
 	</div>
@@ -95,7 +95,7 @@
 								<div class="row">
 									<div class="col-md-12" data-aos="zoom-in-right" data-aos-duration="2000">
 										<h2 class="titleCarouse ml-3 text-white textShadow"><b><?php echo lang('titleSlide1') ?></b></h2>
-                                    <p class=" ml-3 text-white font-weight-light"><?php echo strip_tags(lang('paragraphSlide1'))  ?></p>
+                                    <p class=" ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide1'))  ?></p>
                                     <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -107,7 +107,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse ml-3 text-white textShadow"><b><?php echo lang('titleSlide2') ?></b></h2>
-                                    <p class="ml-3 text-white font-weight-light"><?php echo strip_tags(lang('paragraphSlide2')) ?></p>
+                                    <p class="ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide2')) ?></p>
                                     <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -119,7 +119,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse ml-3 text-white textShadow"><b><?php echo lang('titleSlide3') ?></b></h2>
-                                    <p class="ml-3 text-white font-weight-light"><?php echo strip_tags(lang('paragraphSlide3')) ?></p>
+                                    <p class="ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide3')) ?></p>
                                     <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -131,7 +131,7 @@
 								<div class="row">
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse ml-3 text-white textShadow"><b><?php echo lang('titleSlide4') ?></b></h2>
-                                    <p class="ml-3 text-white font-weight-light"><?php echo strip_tags(lang('paragraphSlide4')) ?></p>
+                                    <p class="ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide4')) ?></p>
                                     <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -143,7 +143,7 @@
 								<div class="row">
 									<div class="col-md-6  position-absolute homefirst">
 										<h2 class=" ml-3 titleCarouse text-white textShadow"><b><?php echo lang('titleSlide5') ?></b></h2>
-                                    <p class=" ml-3 font-weight-light text-white"><?php echo strip_tags(lang('paragraphSlide5'))?></p>
+                                    <p class=" ml-3 font-weight-light text-white text-justify"><?php echo strip_tags(lang('paragraphSlide5'))?></p>
                                     <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
 									</div>
 								</div>
@@ -164,7 +164,7 @@
 		</div>
         <div class="row">
             <div class="col-md-12 text-center mt-3">
-                <h5><?php echo lang('lastPacific') ?></h5>
+                <h5 class="letter"><?php echo lang('lastPacific') ?></h5>
             </div>
         </div>
 	</div>
@@ -231,7 +231,7 @@
 											<a href=""><img class="w-25 img-fluid mx-auto" src="<?php echo base_url('assets/img/iconos/next.png') ?>" alt=""></a>
 										</div>
 										<div class="col-md-12 my-3 mx-auto mr-5">
-											<p class="textMark"><?php echo lang('viewAll') ?></p>
+											<p class="textMark letter"><?php echo lang('viewAll') ?></p>
 										</div>
 								</div>
 							</div>
@@ -256,11 +256,11 @@
 </div>
 <section>
 	<div class="container-fluid">
-		<h5  class="text-center mt-3 mb-5"><?php echo lang('place') ?></h5>
+		<h5  class="text-center mt-3 mb-5 letter"><?php echo lang('place') ?></h5>
 		<div class="row d-flex align-items-center">
 			<div class="offset-md-1 col-md-3" data-aos="zoom-in" data-aos-duration="2000">
 					<h2><?php echo lang('sectionRealTitle') ?></h2>
-					<p><?php echo lang('sectionRealparagraph') ?></p>
+					<p class="text-justify"><?php echo lang('sectionRealparagraph') ?></p>
 					<button type="button" class="primaryButton ml-auto"><?php echo lang('bookNow') ?></button>
 			</div>
 			<div class="offset-md-2 col-md-6 px-0 text-right" data-aos="zoom-in" data-aos-duration="2000">

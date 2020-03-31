@@ -1,11 +1,12 @@
 
  <?php foreach ($arrayelementos as $Relement): ?>	
 	<div class="container-fluid px-0 slideResidences">
-		<img class="w-100 img-fluid opacityMain" src="<?php echo base_url(). $Relement->path_image ?>">
+		<img class="w-100 img-fluid opacityMain d-none d-md-block" src="<?php echo base_url(). $Relement->path_image ?>">
+		<img class="w-100 img-fluid opacityMain d-block d-md-none" src="<?php echo base_url(). $Relement->movil_image ?>">
 			<div class="row">
 				<div class="col-md-8 position-absolute residenceText" data-aos="zoom-in-right" data-aos-duration="2000">
 					<h2 class="ml-5 text-white titleResidence"><b><?php echo $Relement->title?></b></h2>
-					<p class="ml-5 text-white paragraphResidence"><?php echo $Relement->descriptionResidence?></p>
+					<p class="ml-5 text-white paragraphResidence text-justify"><?php echo $Relement->descriptionResidence?></p>
 					<button type="button" class="ml-5 mt-2 primaryButton d-none d-md-block"><?php echo lang('bookNow') ?></button>
 				</div>
 				<div class="col-md-4 position-absolute residenceIcon" data-aos="zoom-in" data-aos-duration="2000">
@@ -58,37 +59,37 @@
 <section>
         <div class="container-fluid px-5 mt-5">
             <div class="row d-flex justify-content-around">
-                <div class="col-md-2" data-aos="flip-left" data-aos-duration="600">
+                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="600">
                     <div class="text-center borderBox">
                         <img class="my-3" src="<?php echo base_url('assets/img/iconos/El-Careyes-Outdoor-pool.svg') ?>" alt="">
                			<h6 class="text-center textMark mt-1"><b>OUTDOOR POOL</b></h6>
                     </div>
                 </div>
-                <div class="col-md-2" data-aos="flip-left" data-aos-duration="800">
+                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="800">
                     <div class="text-center borderBox">
                         <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Laundry.svg')?>" alt="">
 		        		<h6 class="text-center textMark mt-1"><b>LAUNDRY</b></h6>
                     </div>
                 </div>
-                <div class="col-md-2" data-aos="flip-left" data-aos-duration="1000">
+                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1000">
                     <div class="text-center borderBox">
                        <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Beach-Acess.svg')?>" alt="">
                 		<h6 class="text-center textMark mt-1"><b>BEACH ACCESS</b></h6>
                     </div>
                 </div>
-                <div class="col-md-2" data-aos="flip-left" data-aos-duration="1200">
+                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1200">
                     <div class="text-center borderBox">
                         <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Dining.svg')?>" alt="">
                 		<h6 class="text-center textMark mt-1"><b>DINING</b></h6>
                     </div>
                 </div>
-                <div class="col-md-2" data-aos="flip-left" data-aos-duration="1400">
+                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1400">
                     <div class="text-center borderBox">
                         <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Jacuzzi.svg')?>" alt="">
                 		<h6 class="text-center textMark mt-1"><b>JACUZZI</b></h6>
                     </div>
                 </div>
-                <div class="col-md-2" data-aos="flip-left" data-aos-duration="1600">
+                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1600">
                     <div class="text-center borderBox">
                         <img class="my-1" src="<?php echo base_url('assets/img/iconos/El-Careyes-Bar.svg')?>" alt="">
                 		<h6 class="text-center textMark mt-1"><b>BAR</b></h6>

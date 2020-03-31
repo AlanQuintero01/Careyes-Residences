@@ -8,19 +8,19 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto textnav">
       <li class="nav-item ml-4">
-        <a class=" textnav h6 <?php  echo item_menu_active('careyes');?>" href="<?php  echo base_url() . $language; ?>" class="nav-link ">EL CAREYES</a>
+        <a class="textnav h6 <?php  echo item_menu_active('careyes');?>" href="<?php  echo base_url() . $language; ?>" class="nav-link">EL CAREYES</a>
       </li>
       <li class="nav-item ml-4">
-        <a class=" textnav h6 <?php echo item_menu_active('reservation');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/reservation " class="nav-link "><?php echo lang('reservations')?></a>
+        <a class=" textnav h6 <?php echo item_menu_active('reservation');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/reservation" class="nav-link"><?php echo lang('reservations')?></a>
       </li>
       <li class="nav-item ml-4">
         <a class=" textnav h6 <?php echo item_menu_active('realestate');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/realestate" class="nav-link "><?php echo lang('real_estate')?></a>
       </li>
       <li class="nav-item ml-4">
-        <a class=" textnav h6 <?php echo item_menu_active('costacareyes');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/costacareyes" class="nav-link ">COSTA CAREYES</a>
+        <a class=" textnav h6 <?php echo item_menu_active('costacareyes');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/costacareyes" class="nav-link">COSTA CAREYES</a>
       </li>
       <li class="nav-item ml-4">
-        <a class=" textnav h6 <?php echo item_menu_active('contact');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/contact" class="nav-link "><?php echo lang('contact')?></a>
+        <a class=" textnav h6 <?php echo item_menu_active('contact');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/contact" class="nav-link"><?php echo lang('contact')?></a>
       </li>
     </ul>
     <div class="ml-auto mr-3 ">

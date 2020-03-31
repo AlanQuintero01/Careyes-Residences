@@ -1,13 +1,14 @@
 <div class="coastImage">
   <div class="coastText">
-    <h2 class="text-white ml-5" data-aos="zoom-in-up" data-aos-duration="1000"><?php echo lang('titleCoast') ?></h2>
+    <h2 class="text-white ml-5 letter" data-aos="zoom-in-up" data-aos-duration="1000"><?php echo lang('titleCoast') ?></h2>
   </div>
 </div>
     <section id="coast">
-        <div  class="container mb-5" >
+        <div  class="container py-3" >
             <div class="row">
                 <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
-                        <h3 class="mt-5 h1"><?php echo lang('sectionSouthtitle') ?></h3>
+                        <h3 class="mt-5 h1 d-none d-md-block letter"><?php echo lang('sectionSouthtitle') ?></h3>
+                         <h3 class="mt-5 d-block d-md-none"><?php echo lang('sectionSouthtitle') ?></h3>
                         <hr class="reyes1"> 
                 </div>
                 <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
@@ -18,9 +19,9 @@
     </section>
 
 <section id="slideCare">
-    <div class="container">
+    <div class="container mt-3">
         <div class="row d-flex justify-content-center mb-5">
-            <div class="col-md-12 px-0 mt-5">
+            <div class="col-md-12 px-0">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -29,7 +30,7 @@
                                     <div class="col-md-5 bg-white borderSlide p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide2title') ?></h3>
                                         <hr class="line">
-                                    <p class="paragraphCarouse"><?php echo lang('sectionSlide2paragraph') ?></p>
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide2paragraph') ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +42,7 @@
                                     <div class="col-md-5 bg-white borderSlide p-5">
                                         <h4 class="titleCarouse textMark"><?php echo lang('sectionSlide1title') ?></h4>
                                         <hr class="line">
-                                    <p class="paragraphCarouse"><?php echo lang('sectionSlide1paragraph') ?></p>
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide1paragraph') ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +54,7 @@
                                     <div class="col-md-5 bg-white borderSlide p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide3title') ?></h3>
                                         <hr class="line">
-                                    <p class="paragraphCarouse"><?php echo lang('sectionSlide3paragraph') ?></p>
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide3paragraph') ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +66,7 @@
                                     <div class="col-md-5 bg-white borderSlide p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide4title') ?></h3>
                                         <hr class="line">
-                                    <p class="paragraphCarouse"><?php echo lang('sectionSlide4paragraph') ?></p>
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide4paragraph') ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +78,7 @@
                                     <div class="col-md-5 bg-white borderSlide p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide5title') ?></h3>
                                         <hr class="line">
-                                    <p class="paragraphCarouse"><?php echo lang('sectionSlide5paragraph') ?></p>
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide5paragraph') ?></p>
                                     </div>
                                 </div>
                             </div>
