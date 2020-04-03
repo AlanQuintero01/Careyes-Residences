@@ -416,7 +416,7 @@ footer{
 
 .residenceIcon{
   text-align: right;
-  top: 55%;
+  top: 55.1%;
   right: 5%;
   z-index: 10;
 }
@@ -518,12 +518,14 @@ footer{
 .menuActive{
   color: $secondary !important;
   border-bottom: 2px solid $secondary;
+  font-weight: 900;
 }
 
 .textnav{
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.1rem;
+  font-size: 0.9rem;
 }
 
 .textnav:hover{
