@@ -178,7 +178,7 @@
 						<div class="container">
 							<div class="row fondo-home-about-section mt-5 pt-5">
 								<div class="col-md-6 mt-5 d-flex justify-content-center">
-									<div class="mt-5">
+									<div class="mt-4">
 										<h2><?php echo lang('titleAboutCareyesBar') ?></h2>
 									</div>
 								</div>
@@ -194,10 +194,10 @@
 						<div class="container">
 							<div class="row fondo-home-stages-section">
 								<div class="col-md-4 imageBar mt-3">
-									<img src="<?php echo base_url('assets/img/Home/El-Careyes-club-and-residence-picnic-area.jpg') ?>" class="img-fluid w-100" alt="">
+									<img src="<?php echo base_url('assets/img/Home/El-Careyes-club-and-residence-private-beach.jpg') ?>" class="img-fluid w-100" alt="">
 									<div class="home-stages-section-text p-3">
-										<h4 class="textMark"><?php echo lang('TitleaboutPicnicBar') ?></h4>
-										<p class="text-left"><?php echo lang('aboutPicnicBar') ?></p>
+										<h4 class="textMark"><?php echo lang('TitleaboutBeachBar') ?></h4>
+										<p class="text-left"><?php echo lang('aboutAccessBar') ?></p>
 									</div>
 								</div>
 								<div class="col-md-4 imageBar mt-3">
@@ -208,10 +208,10 @@
 									</div>
 								</div>
 								<div class="col-md-4 imageBar mt-3">
-									<img src="<?php echo base_url('assets/img/Home/El-Careyes-club-and-residence-private-beach.jpg') ?>" class="img-fluid w-100" alt="">
+									<img src="<?php echo base_url('assets/img/Home/El-Careyes-club-and-residence-picnic-area.jpg') ?>" class="img-fluid w-100" alt="">
 									<div class="home-stages-section-text p-3">
-										<h4 class="textMark"><?php echo lang('TitleaboutBeachBar') ?></h4>
-										<p class="text-left"><?php echo lang('aboutAccessBar') ?></p>
+										<h4 class="textMark"><?php echo lang('TitleaboutPicnicBar') ?></h4>
+										<p class="text-left"><?php echo lang('aboutPicnicBar') ?></p>
 									</div>
 								</div>
 							</div>

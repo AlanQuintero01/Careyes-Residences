@@ -4,7 +4,7 @@
                 <div class="col-md-4 p-2">
                     <p class="text-white">EL CAREYES
                         <br>
-                         &copy;&nbsp;ALL RIGTH RESERVED&nbsp;<script>document.write(new Date().getFullYear());</script>
+                         &copy;&nbsp;TODOS LOS DERECHOS RESERVADOS&nbsp;<script>document.write(new Date().getFullYear());</script>
                     </p>
                    <div class="text-white">
                     <?php if ( !empty($available_languages) ): ?>
@@ -12,7 +12,7 @@
                                 <ul role='menu' class='nav-item'>
                                     <?php foreach ($available_languages as $abbr => $item): ?>
                                         <li>
-                                            <a class="text-white mx-1" href="<?php echo lang_url($abbr); ?>">
+                                            <a class="text-white mx-1 h6" href="<?php echo lang_url($abbr); ?>">
                                                 <?php echo $item['label']; ?>
                                             </a>
                                         </li>

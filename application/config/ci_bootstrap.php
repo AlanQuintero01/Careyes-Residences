@@ -61,10 +61,6 @@ $config['ci_bootstrap'] = array(
 				'label'	=> 'ES',
 				'value' => 'spanish'
 			),
-			'en' => array(
-				'label'	=> 'EN',
-				'value'	=> 'english'
-			)
 		)
 	),
 

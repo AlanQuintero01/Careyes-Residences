@@ -8,6 +8,7 @@ class Reservation extends MY_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model('residencesModel','modredidences');
+		$this->load->helper('url');
 	}
 
 	public function index()
@@ -56,7 +57,7 @@ class Reservation extends MY_Controller {
         //validacion boton preview residencias
 
 //validacion boton next residencias
-		 if ($after === 11) {
+		 if ($after === 13) {
         	$displayafter = "d-none";
         	$after = "";
 			$this->mViewData['displayafter'] = $displayafter;

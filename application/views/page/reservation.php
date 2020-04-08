@@ -30,10 +30,13 @@
                     <div class="col-md-4 py-3">
                         <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><h4 class="textMark"><b><?php echo $element->title?></b></h4></a>
                         <p><?php echo $element->introText ?></p>
-                        <img class="ml-auto img-fluid w-100" src="<?php echo base_url('assets/img/iconos/Grupo 126.png')?>" alt="">
+                        <img class="img-fluid ml-auto" src="<?php echo base_url() . $element->image_icon1?>" alt="">
+                        <img class="img-fluid mx-4" src="<?php echo base_url() . $element->image_icon2?>" alt="">
+                        <img class="img-fluid mx-4" src="<?php echo base_url() . $element->image_icon3?>" alt="">
+                        <img class="img-fluid mx-4" src="<?php echo base_url() . $element->image_icon4?>" alt="">
                     </div>
                     <div class="col-md-3 text-center my-auto">
-                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><button class="reservationsButton"><?php echo lang('readmore') ?></button></a>
+                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><button class="reservationsButton px-5"><?php echo lang('readmore') ?></button></a>
                         <button class="reservationsButton"><?php echo lang('bookNow') ?></button>
                     </div>
                 </div>
@@ -42,16 +45,17 @@
     </section>
 
 
+
     <section>
         <hr class="locationPrimary my-5"> 
         <div class="container mt-3">
         	<div class="row">
         		<div class="col-md-4 my-auto">
-        			<h3>FOLLOW<br>US ON <span class="textMark">INSTAGRAM</span></h3>
+        			<h3>SÍGUENOS<br>EN  <span class="textMark">INSTAGRAM</span></h3>
         		</div>
                 <div class="col-md-8 my-auto">
                     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-b5be532a-400e-44ae-a3c6-7013f77ef955"></div>
+<div class="elfsight-app-30eb01a6-3c5f-4e0f-b377-f60b12e6c10a"></div>
                 </div>
         	</div>
         </div>    

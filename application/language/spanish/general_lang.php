@@ -17,14 +17,14 @@
     $lang['titleSlide3'] = "ARQUITECTURA<BR> SURREALISTA";
     $lang['titleSlide4'] = "CONFORT<BR> INIGUALABLE";
     $lang['titleSlide5'] = "LA PLAYA";
-	$lang['paragraphSlide1'] = "Es un escaparate de naturaleza salvaje, estilo de vida extraordinario,<BR> arquitectura surrealista y un toque de magia para tu vida.";
-	$lang['paragraphSlide2'] = "Estancia única con vista inigualable y un gran confort,<br> con ello podrás disfrutar de las magníficas postales de cada atardecer.";
-	$lang['paragraphSlide3'] = "Una reserva con +60 castillos, villas y casitas con arquitectura excepcional<br> diseñadas para recibirte con la inigualable hospitalidad mexicana.";
-	$lang['paragraphSlide4'] = "Tenemos un increíble servicio que te hará sentir como en casa,<br> con espacios únicos para descansar y dejarte llevar.";
+	$lang['paragraphSlide1'] = "Es un escaparate de naturaleza salvaje, <br>estilo de vida extraordinario, arquitectura<br> surrealista y un toque de magia para tu vida.";
+	$lang['paragraphSlide2'] = "Estancia única con vista inigualable y un<br> gran confort, con ello podrás disfrutar de<br> las magníficas postales de cada atardecer.";
+	$lang['paragraphSlide3'] = "Una reserva con +60 castillos, villas y casitas<br> con arquitectura excepcional diseñadas para<br> recibirte con la inigualable hospitalidad mexicana.";
+	$lang['paragraphSlide4'] = "Tenemos un increíble servicio que te hará <br>sentir como en casa, con espacios únicos<br> para descansar y dejarte llevar.";
 	$lang['paragraphSlide5'] = "Tenemos acceso privado a la playa, tienes todo<br> en un solo lugar para que puedas disfrutar de <br> diversas actividades que tenemos para ti.";
 
 
-    $lang['titleAboutCareyesBar'] = "SOBRE<br><b class='textMark'>EL CAREYES</b><br>& RESIDENCES";
+    $lang['titleAboutCareyesBar'] = "SOBRE <b class='textMark'>EL CAREYES</b><br>& SUS RESIDENCIAS";
 	$lang['paragraphAboutCareyesBar'] = "Costa Careyes es una reserva natural protegida y exclusiva, creada por el visionario GianFranco Brignone. Un escaparate de naturaleza salvaje, estilo de vida extraordinario y arquitectura surrealista.</p> <p>Careyes promete a cada uno de sus visitantes una estancia única e inigualable con la distinción de hacerlos sentir como en casa a través del confort que ofrecen sus diversas estancias: castillos frente al mar, casitas de ensueño y bungalows con vista a paisajes insuperables.";
 		$lang['TitleaboutPicnicBar'] = "PICNIC";
 	$lang['aboutPicnicBar'] = "Exclusive area to relax";
@@ -67,7 +67,7 @@
 
 	//Section Learn More 
 	$lang['sectionLearntitle'] = "<b><span class='textMark'>MÁS</span><br>INFORMACIÓN</b>";  
-	$lang['sectionLearninput'] = "TU CORREO ELECTRONICO";
+	$lang['sectionLearninput'] = "TU CORREO ELECTRÓNICO";
 	$lang['sectionLearnbutton'] = "ENVIAR";
 
 
@@ -84,7 +84,7 @@
 	$lang['sectionSlide1paragraph'] = "Durante más de 33 años, nuestro hogar ha sido testigo de la visita de tortugas marinas que han llegado a anidar a Careyes, las cuales cuentan con la protección de residentes y un equipo formado por lugareños.<br> Hasta la fecha, se han protegido 16,579 nidos y más de 1, 350, 000 tortugas recién nacidas de cuatro especies diferentes.";
 
 	$lang['sectionSlide2title'] = "Chamela - Cuixmala";
-	$lang['sectionSlide2paragraph'] = "Costa Careyes is located ash the center of the <b class='textMark'>Chamela - Cuixmala Biosphere</b> and so has a special compromise with the preservation of all wildlife that inhabits it 13,000 hectares of boundless nature, endless virgin beaches and breathtaking beauty. Creating with this a unique place in the world.";
+	$lang['sectionSlide2paragraph'] = "Costa Careyes está localizada en el centro de la reserva de la biósfera <b class='textMark'>Chamela - Cuixmala</b> y tiene un compromiso especial con la preservacion de la fauna silvestre que habita en las 13,000 hectareas de naturaleza ilimitada. Costa Careyes posee playas vírgenes y una vista impresionante. Creando con esto un lugar único en el mundo.";
 
 	$lang['sectionSlide3title'] = "KAYAK & BUCEO";
 	$lang['sectionSlide3paragraph'] = "Sumérgete en el mundo acuático a través de diversas actividades para activar su lado más aventurero. Ideal para los amantes del mar sin importar qué tan principiante o experto seas.</b> <br><br> * Consulta el calendario de actividades con el Concierge de Club Careyes.";
@@ -100,24 +100,24 @@
 	//Contact
 
 	//TitleContact 
-	$lang['sectionContacttitle'] = "CONTACT";
+	$lang['sectionContacttitle'] = "CONTACTO";
 
 	//Contact
     $lang['sectionContactemail'] = "info@elcareyes.com";
    	$lang['sectionContacttel'] = "+52 315 35 10000";
-	$lang['sectionContactMaps'] = "Google Mapas";
+	$lang['sectionContactMaps'] = "Google Maps";
 	$lang['sectionContactBook'] = "Reserva";
 
 	// General terms
 	$lang['titleSlideresidence'] = "RESIDENCE";
-	$lang['bookNow'] = "¡RESERVA AHORA!";
-	$lang['previous'] = "Previous";
-	$lang['next'] = "Next";
-	$lang['readmore'] = "MÁS INFORMACIÓN";
+	$lang['bookNow'] = "RESERVA AHORA";
+	$lang['previous'] = "ANTERIOR";
+	$lang['next'] = "SIGUIENTE";
+	$lang['readmore'] = "LEER MÁS";
 	$lang['viewAll'] = "VER <b>TODAS</b>";  
 	$lang['sing'] = "REGÍSTRATE PARA";
 	$lang['news'] = "<b class='textMark'>MÁS NOTICIAS</b> Y DESCUENTOS";
-	$lang['youEmail'] = "TU CORREO ELECTRONICO";
+	$lang['youEmail'] = "TU CORREO ELECTRÓNICO";
 	$lang['Subs'] = "SUSCRIBIRME";
 	$lang['direc'] = "Carretera Barra de Careyes<br>Km 53.5, 46930 Navidad, Jal.";
 	$lang['TitleLocation'] = "UBICACIÓN";

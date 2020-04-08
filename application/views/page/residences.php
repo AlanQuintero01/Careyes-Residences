@@ -4,23 +4,23 @@
 		<img class="w-100 img-fluid opacityMain d-none d-md-block" src="<?php echo base_url(). $Relement->path_image ?>">
 		<img class="w-100 img-fluid opacityMain d-block d-md-none" src="<?php echo base_url(). $Relement->movil_image ?>">
 			<div class="row">
-				<div class="col-md-8 position-absolute residenceText" data-aos="zoom-in-right" data-aos-duration="2000">
+				<div class="col-md-4 position-absolute residenceText" data-aos="zoom-in-right" data-aos-duration="2000">
 					<h2 class="ml-5 text-white titleResidence"><b><?php echo $Relement->title?></b></h2>
-					<p class="ml-5 text-white paragraphResidence text-justify"><?php echo $Relement->descriptionResidence?></p>
+					<p class="ml-5 text-white paragraphResidence h6 text-justify"><?php echo $Relement->descriptionResidence?></p>
 					<button type="button" class="ml-5 mt-2 primaryButton d-none d-md-block"><?php echo lang('bookNow') ?></button>
 				</div>
 				<div class="col-md-4 position-absolute residenceIcon" data-aos="zoom-in" data-aos-duration="2000">
-					<p class="text-white moreResidence pr-1 mr-5">MORE RESIDENCES</p>
+					<p class="text-white moreResidence h6 mr-5 pr-5">MÁS RESIDENCIAS</p>
 					<a href="<?php echo base_url('reservation/residences/') . $before  ?>" class="<?php echo $display?>">
 						<span class="keyResidences text-white"><</span>
-						<button type="button" class="residenceButton h4">PREV</button></a>
+						<button type="button" class="residenceButton h5">ANTERIOR</button></a>
 					<a href="<?php echo base_url('reservation/residences/') . $after  ?>" class="<?php echo $displayafter?>">
-						<button type="button" class="residenceButton h4">NEXT</button>
+						<button type="button" class="residenceButton h5">SIGUIENTE</button>
 						<span class="keyResidences mr-3 text-white">></span></a>
 				</div>
 			</div>
 		</div>
-		<h5 class="textMark text-center mt-3">ONE OF <b>THE LAST EDENS</b> OF THE PACIFIC</h5>			
+		<h5 class="textMark text-center mt-3 letter"><?php echo lang('lastPacific') ?></h5>			
 <section id="residence">
 	<div class="container">
 		<div class="row py-0">
@@ -43,12 +43,13 @@
 			<div class="col-md-4 my-auto mx-auto" data-aos="fade-up" data-aos-duration="1200">
 				<h3><?php echo $Relement->detailTitle?></h3>
 				<hr class="line">
-				<p><?php echo $Relement->introText ?></p>
+				<p><?php echo $Relement->intro_Text2 ?></p>
 				<p class="my-0"><?php echo $Relement->detailParagraph1?></p>
 				<p class="my-0"><?php echo $Relement->detailParagraph2?></p>
 				<p class="my-0"><?php echo $Relement->detailParagraph3?></p>
 				<p class="my-0"><?php echo $Relement->detailParagraph4?></p>
 				<p class="my-0"><?php echo $Relement->detailParagraph5?></p>
+				<p class="my-0"><?php echo $Relement->detailParagraph6?></p>
 			</div>
 		</div>
 	</div>
@@ -62,31 +63,25 @@
                 <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="600">
                     <div class="text-center borderBox">
                         <img class="my-3" src="<?php echo base_url('assets/img/iconos/El-Careyes-Outdoor-pool.svg') ?>" alt="">
-               			<h6 class="text-center textMark mt-1"><b>OUTDOOR POOL</b></h6>
+               			<h6 class="text-center textMark mt-1"><b>ALBERCA INFINITA</b></h6>
                     </div>
                 </div>
                 <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="800">
                     <div class="text-center borderBox">
                         <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Laundry.svg')?>" alt="">
-		        		<h6 class="text-center textMark mt-1"><b>LAUNDRY</b></h6>
+		        		<h6 class="text-center textMark mt-1"><b>LAVANDERÍA</b></h6>
                     </div>
                 </div>
                 <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1000">
                     <div class="text-center borderBox">
                        <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Beach-Acess.svg')?>" alt="">
-                		<h6 class="text-center textMark mt-1"><b>BEACH ACCESS</b></h6>
+                		<h6 class="text-center textMark mt-1"><b>ACCESO A LA PLAYA</b></h6>
                     </div>
                 </div>
                 <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1200">
                     <div class="text-center borderBox">
                         <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Dining.svg')?>" alt="">
-                		<h6 class="text-center textMark mt-1"><b>DINING</b></h6>
-                    </div>
-                </div>
-                <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1400">
-                    <div class="text-center borderBox">
-                        <img class="my-2" src="<?php echo base_url('assets/img/iconos/El-Careyes-Jacuzzi.svg')?>" alt="">
-                		<h6 class="text-center textMark mt-1"><b>JACUZZI</b></h6>
+                		<h6 class="text-center textMark mt-1"><b>COMEDOR</b></h6>
                     </div>
                 </div>
                 <div class="col-md-2 mt-2" data-aos="flip-left" data-aos-duration="1600">
