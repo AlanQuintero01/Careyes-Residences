@@ -15,11 +15,15 @@
     $lang['titleSlide3'] = "ARQUITECTURA<BR> SURREALISTA";
     $lang['titleSlide4'] = "CONFORT<BR> INIGUALABLE";
     $lang['titleSlide5'] = "LA PLAYA";
+    $lang['titleSlide6'] = "LUGAR INIGUALABLE";
+    $lang['titleSlide7'] = "DESTINO DE ENSUEÑOa";
 	$lang['paragraphSlide1'] = "Es un escaparate de naturaleza salvaje, estilo de vida extraordinario,<BR> arquitectura surrealista y un toque de magia para tu vida.";
 	$lang['paragraphSlide2'] = "Estancia única con vista inigualable y un gran confort,<br> con ello podrás disfrutar de las magníficas postales de cada atardecer.";
 	$lang['paragraphSlide3'] = "Una reserva con +60 castillos, villas y casitas con arquitectura excepcional<br> diseñadas para recibirte con la inigualable hospitalidad mexicana.";
 	$lang['paragraphSlide4'] = "Tenemos un increíble servicio que te hará sentir como en casa,<br> con espacios únicos para descansar y dejarte llevar.";
 	$lang['paragraphSlide5'] = "Tenemos acceso privado a la playa, tienes todo<br> en un solo lugar para que puedas disfrutar de <br> diversas actividades que tenemos para ti.";
+	$lang['paragraphSlide6'] = "Una reserva en la que habita la naturaleza, el arte, la cultura y el encanto de la hospitalidad mexicana.";
+	$lang['paragraphSlide7'] = "Descubre todo lo que necesitas para disfrutar de una aventura en la paradisiaca costa mexicana.";
 		// Section Slide Progress Bar 
     $lang['titleAboutCareyesBar'] = "ABOUT<br><b class='textMark'>CAREYES</b><br>CLUB &<br> RESIDENCES";
 	$lang['paragraphAboutCareyesBar'] = "Costa Careyes is a magical protected estate and community created by GianFranco Brignone, an extraordinary man with amazing vision. Flying over this coast in 1968 he fell in love with it and never left. Together with his family the dream continues, building a unique threshold between community, nature, wellbeing & art.</p> <p>With the most amazing and surreal architecture, Costa Careyes is also home to <span class='textMark'>amazing art projects like its cultural plaza,</span>  its beautiful Art Gallery which has hosted incredible artists and of course Arte Careyes, a 10 day film festival that includes music and contemporary art in this most inspiring setting.";

@@ -64,6 +64,11 @@ $config['ci_bootstrap'] = array(
 			'url'		=> '',
 			'icon'		=> 'fa fa-home',
 		),
+		'residencias' => array(
+			'name'		=> 'Residencias',
+			'url'		=> 'residencias',
+			'icon'		=> 'fa fa-home',
+		),
 		'user' => array(
 			'name'		=> 'Users',
 			'url'		=> 'user',

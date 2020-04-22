@@ -1,4 +1,4 @@
-<  <div class="realImage">
+<div class="realImage">
   <div class="realText">
     <h2 class="text-white letter" data-aos="zoom-in-up" data-aos-duration="1000"><?php echo lang('titleReal') ?></h2>
   </div>
@@ -8,7 +8,7 @@
         <div  class="container py-3" >
             <div class="row">
                 <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
-                        <h3 class="mt-5 h1 d-none d-md-block letter"><?php echo lang('sectionClubtitle') ?></h3>
+                        <h3 class="mt-5 h3 d-none d-md-block letter"><?php echo lang('sectionClubtitle') ?></h3>
                         <h3 class="mt-5 d-block d-md-none"><?php echo lang('sectionClubtitle') ?></h3>
                         <hr class="reyes1"> 
                 </div>
@@ -62,8 +62,10 @@
                     <hr class="bT">
                         <h2><?php echo lang('sectionLearntitle') ?></h2>
                         <br>
-                            <input class="learmore mr-0 p-2 px-5" type="email" id="email" name="email" placeholder="<?php echo lang('sectionLearninput') ?>">
+                        <form action="<?php echo base_url('contacto/proceso') ?>" method="post">
+                            <input class="learmore mr-0 px-5" type="email" id="email" name="email" placeholder="<?php echo lang('sectionLearninput') ?>">
                             <button class="learButton pButton" type="submit"><?php echo lang('sectionLearnbutton') ?></button>
+                        </form>
                 </div>
                 <div class="col-md-5 mb-5" data-aos="zoom-in-down" data-aos-duration="1500">
                     <img class="img-fluid w-100" src="<?php echo base_url('assets/img/Real-Estate/El-Careyes-Real-estate-learn-more.jpg')?>" alt="">
@@ -72,32 +74,32 @@
         </div>
     </section>
 
-        <section class="my-3 d-block d-md-none">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12" data-aos="zoom-in-down" data-aos-duration="1500">
-                    <hr class="bT">
-                        <h2><?php echo lang('sectionLearntitle') ?></h2>
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="col-md-12">
-                           <div class="row">
-        <div class="col-md-12 d-flex" data-aos="fade-up" data-aos-duration="1500">
-            <input class="learmore mr-0 pl-4" type="email" id="email" name="email" placeholder="<?php echo lang('youEmail') ?>">
-            <button class="contactButton px-2 ml-0 mt-0 py-2 mb-0 bg-white" type="submit"><?php echo lang('sectionLearnbutton') ?></button>
-        </div>
-    </div>
-                      </div>
-                <div class="col-md-12 my-5" data-aos="zoom-in-down" data-aos-duration="1500">
-                    <img class="img-fluid w-100" src="<?php echo base_url('assets/img/Real-Estate/El-Careyes-Real-estate-learn-more.jpg')?>" alt="">
-                </div>
+<section class="my-3 d-block d-md-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" data-aos="zoom-in-down" data-aos-duration="1500">
+                <hr class="bT">
+                <h2><?php echo lang('sectionLearntitle') ?></h2>
             </div>
         </div>
-    </section>
-    
+        <div class="row">
+            <div class="col-md-12" data-aos="fade-up" data-aos-duration="1500">
+                <form action="<?php echo base_url('contacto/proceso') ?>" method="post">
+                    <div class="form-row">
+                        <input class="learmore mr-0 mx-5 w-100  text-center" type="email" id="email" name="email" placeholder="<?php echo lang('youEmail') ?>">
+                    </div>
+                    <div class="form-row">
+                        <button class="contactButton mt-0 py-2 mb-0 w-100 ml-0 mx-5 mt-2" type="submit"><?php echo lang('sectionLearnbutton') ?></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+            <div class="col-md-12 my-5" data-aos="zoom-in-down" data-aos-duration="1500">
+                <img class="img-fluid w-100" src="<?php echo base_url('assets/img/Real-Estate/El-Careyes-Real-estate-learn-more.jpg')?>" alt="">
+            </div>
+        </div>
+</section>
 
-        <?php $this->load->view('components/contactresidence'); ?>
-    <?php $this->load->view('components/inputsecondary'); ?>
+<?php $this->load->view('components/contact'); ?>
 
 

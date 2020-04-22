@@ -1,13 +1,12 @@
 var element = document.getElementById("imgPrincipal")
 
 function imagefist(){
-    element.src = base_url + "assets/img/Residences/211/El-Careyes-Galeria-residence-211-b.jpg";
+	 element.src = base_url + "assets/uploads/residences/" + galeria1;
 }
 function imagesecond(){
-    element.src = base_url +  "assets/img/Residences/211/El-Careyes-Galeria-residence-211-c.jpg";
+    element.src = base_url +  "assets/uploads/residences/" + galeria2;
 }
 function imagethird(){
-    element.src = base_url +  "assets/img/Residences/211/El-Careyes-Galeria-residence-211-d.jpg";
+    element.src = base_url +  "assets/uploads/residences/" + galeria3;
 }
-
 

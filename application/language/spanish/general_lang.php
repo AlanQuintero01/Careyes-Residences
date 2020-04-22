@@ -17,21 +17,25 @@
     $lang['titleSlide3'] = "ARQUITECTURA<BR> SURREALISTA";
     $lang['titleSlide4'] = "CONFORT<BR> INIGUALABLE";
     $lang['titleSlide5'] = "LA PLAYA";
+     $lang['titleSlide6'] = "LUGAR <br> INIGUALABLE";
+    $lang['titleSlide7'] = "DESTINO DE <br>ENSUEÑO";
 	$lang['paragraphSlide1'] = "Es un escaparate de naturaleza salvaje, <br>estilo de vida extraordinario, arquitectura<br> surrealista y un toque de magia para tu vida.";
 	$lang['paragraphSlide2'] = "Estancia única con vista inigualable y un<br> gran confort, con ello podrás disfrutar de<br> las magníficas postales de cada atardecer.";
-	$lang['paragraphSlide3'] = "Una reserva con +60 castillos, villas y casitas<br> con arquitectura excepcional diseñadas para<br> recibirte con la inigualable hospitalidad mexicana.";
+	$lang['paragraphSlide3'] = "Observa paisajes inolvidables acompañados<br> de la arquitectura excepcional que distingue<br> a la  reserva de Costa Careyes.";
 	$lang['paragraphSlide4'] = "Tenemos un increíble servicio que te hará <br>sentir como en casa, con espacios únicos<br> para descansar y dejarte llevar.";
-	$lang['paragraphSlide5'] = "Tenemos acceso privado a la playa, tienes todo<br> en un solo lugar para que puedas disfrutar de <br> diversas actividades que tenemos para ti.";
+	$lang['paragraphSlide5'] = " Tenemos acceso privado a la playa,<br>tienes todo en un solo lugar para<br> que puedas disfrutar de diversas<br>actividades que tenemos para ti.";
+	$lang['paragraphSlide6'] = "Una reserva en la que habita la naturaleza, el arte,<br> la cultura y el encanto de la hospitalidad mexicana.";
+	$lang['paragraphSlide7'] = "Descubre todo lo que necesitas para disfrutar de <br>una aventura en la paradisiaca costa mexicana.";
 
 
-    $lang['titleAboutCareyesBar'] = "SOBRE <b class='textMark'>EL CAREYES</b><br>& SUS RESIDENCIAS";
-	$lang['paragraphAboutCareyesBar'] = "Costa Careyes es una reserva natural protegida y exclusiva, creada por el visionario GianFranco Brignone. Un escaparate de naturaleza salvaje, estilo de vida extraordinario y arquitectura surrealista.</p> <p>Careyes promete a cada uno de sus visitantes una estancia única e inigualable con la distinción de hacerlos sentir como en casa a través del confort que ofrecen sus diversas estancias: castillos frente al mar, casitas de ensueño y bungalows con vista a paisajes insuperables.";
-		$lang['TitleaboutPicnicBar'] = "PICNIC";
-	$lang['aboutPicnicBar'] = "Exclusive area to relax";
-	$lang['TitleaboutFoodBar'] = "ÁREA DE COMIDA";
-	$lang['aboutFoodBar'] = "Restaurante, bar y cafetería";
-	$lang['TitleaboutBeachBar'] = "PLAYA PRIVADA";
-	$lang['aboutAccessBar'] = "Acceso exclusivo";
+    $lang['titleAboutCareyesBar'] = "SOBRE <b class='textMark'>EL<br> CAREYES</b> & SUS<br> RESIDENCIAS";
+	$lang['paragraphAboutCareyesBar'] = "Costa Careyes es una reserva natural protegida y exclusiva, creada por el visionario GianFranco Brignone. Un escaparate de naturaleza salvaje, estilo de vida extraordinario y arquitectura surrealista.</p> <p>Careyes promete a cada uno de sus visitantes una estancia única e inigualable con la distinción de hacerlos sentir como en casa a través del confort que ofrecen sus diversas estancias: castillos frente al mar, casitas de ensueño y bungalows con vista a paisajes insuperables.<br><br> Acceso exclusivo – Disfruta de una entrada directa a la playa a través del Club Haute Cuisine – Proyecto gastronómico de alta cocina conformado por restaurante, bar y cafetería. <br>Zona de albercas – Un espacio creado para relajarte con el confort que mereces.";
+		$lang['TitleaboutPicnicBar'] = "ZONA DE ALBERCAS";
+	$lang['aboutPicnicBar'] = "Un espacio creado para relajarte con el confort que mereces.";
+	$lang['TitleaboutFoodBar'] = "HAUTE CUISINE";
+	$lang['aboutFoodBar'] = "Proyecto gastronómico de alta cocina formado por restaurante, bar y cafetería.";
+	$lang['TitleaboutBeachBar'] = "ACCESO EXCLUSIVO";
+	$lang['aboutAccessBar'] = "Disfruta de una entrada directa a la playa a través del Club.";
 
 	//Section RealEstate
 	$lang['place'] = "DESCUBRE LA MAGIA DETRÁS DE EL CAREYES.";

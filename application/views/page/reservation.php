@@ -8,7 +8,7 @@
         <div  class="container py-3" data-aos="zoom-out" data-aos-duration="1000">
             <div class="row">
                 <div class="col-md-6">
-                        <h3 class="mt-5 h1 d-none d-md-block letter"><?php echo lang('sectionClubtitle') ?></h3>
+                        <h3 class="mt-5 h3 d-none d-md-block letter"><?php echo lang('sectionClubtitle') ?></h3>
                         <h3 class="mt-5 d-block d-md-none"><?php echo lang('sectionClubtitle') ?></h3>
                         <hr class="reyes1">
                 </div>
@@ -23,20 +23,21 @@
     <section>
         <div class="container mt-3">
             <?php foreach ($arrayactivos as $element): ?>
-                <div class="row borderCol mb-5">
+                <div class="row borderCol mb-5 mx-1">
                     <div class="col-md-5 pl-0 pr-0">
-                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><img align="left" class="w-100 img-fluid" src="<?php echo base_url(). $element->path_image ?>" alt=""></a>
+                        <a href="<?php echo base_url('reserva/residencias') ?>/<?php echo $element->id ?>"><img align="left" class="w-100 img-fluid" src="<?php echo base_url('assets/uploads/residences/'). $element->path_image ?>" alt=""></a>
                     </div>
-                    <div class="col-md-4 py-3">
-                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><h4 class="textMark"><b><?php echo $element->title?></b></h4></a>
-                        <p><?php echo $element->introText ?></p>
-                        <img class="img-fluid ml-auto" src="<?php echo base_url() . $element->image_icon1?>" alt="">
-                        <img class="img-fluid mx-4" src="<?php echo base_url() . $element->image_icon2?>" alt="">
-                        <img class="img-fluid mx-4" src="<?php echo base_url() . $element->image_icon3?>" alt="">
-                        <img class="img-fluid mx-4" src="<?php echo base_url() . $element->image_icon4?>" alt="">
+                    <div class="col-md-4 py-2">
+                        <a href="<?php echo base_url('reserva/residencias') ?>/<?php echo $element->id ?>">
+                        <h4 class="textMark ttablet"><b><?php echo $element->title?></b></h4></a>
+                        <h6 class="ptablet"><?php echo $element->introText ?></h6>
+                        <img class="img-fluid ml-auto iconreserv2" src="<?php echo base_url('assets/uploads/iconos/') . $element->image_icon1?>" alt="">
+                        <img class="img-fluid iconreserv" src="<?php echo base_url('assets/uploads/iconos/') . $element->image_icon2?>" alt="">
+                        <img class="img-fluid iconreserv" src="<?php echo base_url('assets/uploads/iconos/') . $element->image_icon3?>" alt="">
+                        <img class="img-fluid iconreserv" src="<?php echo base_url('assets/uploads/iconos/') . $element->image_icon4?>" alt="">
                     </div>
                     <div class="col-md-3 text-center my-auto">
-                        <a href="<?php echo base_url('reservation/residences') ?>/<?php echo $element->id ?>"><button class="reservationsButton px-5"><?php echo lang('readmore') ?></button></a>
+                        <a href="<?php echo base_url('reserva/residencias') ?>/<?php echo $element->id ?>"><button class="reservationsButton px-5"><?php echo lang('readmore') ?></button></a>
                         <button class="reservationsButton"><?php echo lang('bookNow') ?></button>
                     </div>
                 </div>

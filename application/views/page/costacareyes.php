@@ -7,7 +7,7 @@
         <div  class="container py-3" >
             <div class="row">
                 <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
-                        <h3 class="mt-5 h1 d-none d-md-block letter"><?php echo lang('sectionSouthtitle') ?></h3>
+                        <h3 class="mt-5 h3 d-none d-md-block letter"><?php echo lang('sectionSouthtitle') ?></h3>
                          <h3 class="mt-5 d-block d-md-none"><?php echo lang('sectionSouthtitle') ?></h3>
                         <hr class="reyes1"> 
                 </div>
@@ -27,7 +27,7 @@
                         <div class="carousel-item active">
                             <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
                                  <div class="row">
-                                    <div class="col-md-5 bg-white borderSlide p-5">
+                                    <div class="col-md-5 bg-white p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide2title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide2paragraph') ?></p>
@@ -39,7 +39,7 @@
                         <div class="carousel-item">
                             <div class="container slideCoast">
                                 <div class="row">
-                                    <div class="col-md-5 bg-white borderSlide p-5">
+                                    <div class="col-md-5 bg-white  p-5">
                                         <h4 class="titleCarouse textMark"><?php echo lang('sectionSlide1title') ?></h4>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide1paragraph') ?></p>
@@ -51,7 +51,7 @@
                         <div class="carousel-item">
                             <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
                                 <div class="row">
-                                    <div class="col-md-5 bg-white borderSlide p-5">
+                                    <div class="col-md-5 bg-white  p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide3title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide3paragraph') ?></p>
@@ -63,7 +63,7 @@
                         <div class="carousel-item">
                             <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
                                 <div class="row">
-                                    <div class="col-md-5 bg-white borderSlide p-5">
+                                    <div class="col-md-5 bg-white p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide4title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide4paragraph') ?></p>
@@ -75,7 +75,7 @@
                         <div class="carousel-item">
                             <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
                                 <div class="row">
-                                    <div class="col-md-5 bg-white borderSlide p-5">
+                                    <div class="col-md-5 bg-white p-5">
                                         <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide5title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide5paragraph') ?></p>
