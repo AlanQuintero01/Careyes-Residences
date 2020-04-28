@@ -37,8 +37,8 @@
                         <img class="img-fluid iconreserv" src="<?php echo base_url('assets/uploads/iconos/') . $element->image_icon4?>" alt="">
                     </div>
                     <div class="col-md-3 text-center my-auto">
-                        <a href="<?php echo base_url('reserva/residencias') ?>/<?php echo $element->id ?>"><button class="reservationsButton px-5"><?php echo lang('readmore') ?></button></a>
-                        <button class="reservationsButton"><?php echo lang('bookNow') ?></button>
+                        <a href="<?php echo base_url('reserva/residencias') ?>/<?php echo $element->id ?>"><button class="reservationsButton"><?php echo lang('readmore') ?></button></a>
+                        <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button class="reservationsButton"><?php echo lang('bookNow') ?></button></a>
                     </div>
                 </div>
         <?php endforeach ?>
@@ -46,7 +46,7 @@
     </section>
 
 
-
+<?php /* 
     <section>
         <hr class="locationPrimary my-5"> 
         <div class="container mt-3">
@@ -60,6 +60,6 @@
                 </div>
         	</div>
         </div>    
-    </section>
+    </section>*/ ?>
 
     <?php $this->load->view('components/contact'); ?>

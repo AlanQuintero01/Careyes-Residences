@@ -4,7 +4,7 @@
     <hr class="locationPrimary my-5">
     <div class="container-fluid my-5">
         <div class="row d-flex justify-content-center">
-            <div class="offset-md-1 col-md-2" data-aos="fade-up" data-aos-duration="1500">
+            <div class="offset-md-1 col-md-3" data-aos="fade-up" data-aos-duration="1500">
               <h3 class="textMark pl-5"><?php echo lang('TitleLocation') ?></h3>
               <hr class="reyes1 ml-5"> 
               <p class=" pl-5"><?php echo lang('direc') ?></p>

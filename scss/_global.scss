@@ -446,7 +446,7 @@ footer{
 
   @include for-tablet-grand-only {
   .ptablet{
-    font-size: .9rem !important;
+    font-size: .75rem !important;
       }
   }
 
@@ -855,7 +855,7 @@ progress::-webkit-progress-value {
 
 @include for-phone-ssmall-only {
   .iconreserv2 {
-  width: 19% !important;
+  width: 17% !important;
   }
 }
 
@@ -1125,8 +1125,8 @@ svg#icon-swipe {
 
 @include for-phone-only {
   .slideCoast {
-   bottom: 80%;
-   left: 0%;
+   bottom: 10%;
+   left: 53%;
    position: initial;
 
   }
@@ -1181,6 +1181,13 @@ svg#icon-swipe {
 @include for-phone-ssmall-only {
   .slideResidences{
     margin-top: 5.8rem !important;
+  }
+}
+
+
+@media (min-width: 1087px) and (max-width: 1095px) {
+  .textnav {
+    font-size: 0.8rem !important;
   }
 }
 
@@ -1338,6 +1345,73 @@ text-align: left;
     font-size: 2.2rem !important;
   }
 }
+
+
+.lin {
+  display: inline;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .displayTablet {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .fTabletCoast {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slideCoast {
+   bottom: 8%;
+   left: 53%;
+   position: absolute;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .navMenuT {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .ttablet {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .ptablet {
+    font-size: .75rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .ftablet {
+    font-size: .8rem !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1026px) {
+  .textnav {
+    font-size: 0.6rem !important;
+  }
+}
+
+@media (min-width: 1027px) and (max-width: 1086px) {
+  .textnav {
+    font-size: 0.7rem !important;
+  }
+}
+
+
 
 
 

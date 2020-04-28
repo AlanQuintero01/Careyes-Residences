@@ -6,7 +6,7 @@
     <section id="coast">
         <div  class="container py-3" >
             <div class="row">
-                <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="col-md-6" data-aos="zoom-out" data-aos-duration="1300">
                         <h3 class="mt-5 h3 d-none d-md-block letter"><?php echo lang('sectionSouthtitle') ?></h3>
                          <h3 class="mt-5 d-block d-md-none"><?php echo lang('sectionSouthtitle') ?></h3>
                         <hr class="reyes1"> 
@@ -22,13 +22,13 @@
     <div class="container mt-3">
         <div class="row d-flex justify-content-center mb-5">
             <div class="col-md-12 px-0">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="7000">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
                                  <div class="row">
                                     <div class="col-md-5 bg-white p-5">
-                                        <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide2title') ?></h3>
+                                        <h3 class="titleCarouse textMark fTabletCoast"><?php echo lang('sectionSlide2title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide2paragraph') ?></p>
                                     </div>
@@ -37,10 +37,34 @@
                                 <img src="<?php echo base_url('assets/img/Costa-Careyes/Costa-Careyes-FPO.jpg') ?>" class="d-block img-fluid imageM imageD" alt="...">
                         </div>
                         <div class="carousel-item">
+                            <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
+                                <div class="row">
+                                    <div class="col-md-5 bg-white p-5">
+                                        <h3 class="titleCarouse textMark fTabletCoast"><?php echo lang('sectionSlide5title') ?></h3>
+                                        <hr class="line">
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide5paragraph') ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="<?php echo base_url('assets/img/Costa-Careyes/Costa-Careyes-Amenidades-Yoga-spa.jpg') ?>" class="d-block img-fluid imageM imageD"  alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
+                                <div class="row">
+                                    <div class="col-md-5 bg-white  p-5">
+                                        <h3 class="titleCarouse textMark fTabletCoast"><?php echo lang('sectionSlide3title') ?></h3>
+                                        <hr class="line">
+                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide3paragraph') ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="<?php echo base_url('assets/img/Costa-Careyes/Costa-Careyes-Amenidades-Kayak-Buceo.jpg') ?>" class="d-block img-fluid imageM imageD"  alt="...">
+                        </div>
+                        <div class="carousel-item">
                             <div class="container slideCoast">
                                 <div class="row">
                                     <div class="col-md-5 bg-white  p-5">
-                                        <h4 class="titleCarouse textMark"><?php echo lang('sectionSlide1title') ?></h4>
+                                        <h3 class="titleCarouse textMark fTabletCoast"><?php echo lang('sectionSlide1title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide1paragraph') ?></p>
                                     </div>
@@ -51,20 +75,8 @@
                         <div class="carousel-item">
                             <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
                                 <div class="row">
-                                    <div class="col-md-5 bg-white  p-5">
-                                        <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide3title') ?></h3>
-                                        <hr class="line">
-                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide3paragraph') ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="<?php echo base_url('assets/img/Costa-Careyes/Costa-Careyes-Amenidades-Kayak-Buceo.jpg') ?>" class="d-block img-fluid imageM imageD"  alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
-                                <div class="row">
                                     <div class="col-md-5 bg-white p-5">
-                                        <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide4title') ?></h3>
+                                        <h3 class="titleCarouse textMark fTabletCoast"><?php echo lang('sectionSlide4title') ?></h3>
                                         <hr class="line">
                                     <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide4paragraph') ?></p>
                                     </div>
@@ -72,19 +84,6 @@
                             </div>
                             <img src="<?php echo base_url('assets/img/Costa-Careyes/Costa-Careyes-Amenidades-Tenis-Golf.jpg') ?>" class="d-block img-fluid imageM imageD"  alt="...">
                         </div>
-                        <div class="carousel-item">
-                            <div class="container slideCoast" data-aos="fade-down" data-aos-duration="800">
-                                <div class="row">
-                                    <div class="col-md-5 bg-white p-5">
-                                        <h3 class="titleCarouse textMark"><?php echo lang('sectionSlide5title') ?></h3>
-                                        <hr class="line">
-                                    <p class="paragraphCarouse text-justify"><?php echo lang('sectionSlide5paragraph') ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="<?php echo base_url('assets/img/Costa-Careyes/Costa-Careyes-Amenidades-Yoga-spa.jpg') ?>" class="d-block img-fluid imageM imageD"  alt="...">
-                        </div>
-                        
                     </div>
                     <a class="carousel-control-prev indication indicationPrev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <img  aria-hidden="true" src="<?php echo base_url('assets/img/iconos/Trazado 110.png')?>">

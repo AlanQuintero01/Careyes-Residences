@@ -51,8 +51,8 @@
 
 	//Section Club 
 	$lang['sectionClubRestitle'] = "Club & Residencias";
-	$lang['sectionClubResparagraph1'] = "Una reserva con <b class='textMark'>+60 castillos</b>, villas y casitas con arquitectura excepcional diseñadas para recibirte con la inigualable hospitalidad mexicana.";
-	$lang['sectionClubResparagraph2'] = "Costa Careyes, además de consolidarse como un destino de ensueño, es sede cultural de una gran cantidad de proyectos artísticos como su plaza cultural, su famosa Galería de Arte que ha hospedado a increíbles artistas alrededor del mundo y por supuesto, un festival de cine que incluye música y arte contemporáneo en un entorno totalmente inspirador.";
+	$lang['sectionClubResparagraph1'] = "Descubre tu próximo destino de ensueño en Club Careyes, una estancia creada especialmente para ti dentro de una de las costas más impresionantes del Pacífico Mexicano.";
+	$lang['sectionClubResparagraph2'] = "Club Careyes es un espacio diseñado por los arquitectos Mauricio Rocha y Gabriel Carrillo que reúnen una combinación mágica entre confort, lujo, naturaleza salvaje, además de paisajes espectaculares que lo convierten en un edén para viajeros con alma incansable.";
 	
 
 
@@ -114,7 +114,8 @@
 
 	// General terms
 	$lang['titleSlideresidence'] = "RESIDENCE";
-	$lang['bookNow'] = "RESERVA AHORA";
+	$lang['bookNow2'] = "RESERVA AHORA";
+	$lang['bookNow'] = "RESERVAR";
 	$lang['previous'] = "ANTERIOR";
 	$lang['next'] = "SIGUIENTE";
 	$lang['readmore'] = "LEER MÁS";

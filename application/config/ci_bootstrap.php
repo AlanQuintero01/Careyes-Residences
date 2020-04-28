@@ -29,7 +29,7 @@ $config['ci_bootstrap'] = array(
 			'assets/js/lib/framework.js?' . time(),
 			'vendor/bootstrap/js/bootstrap.min.js',
 			'assets/js/owl-carousel.js?' . time(),
-			'vendor/bootstrap/js/bootstrap.bundle.min.js',
+			// 'vendor/bootstrap/js/bootstrap.bundle.min.js',
 			'assets/js/careyes.js?' . time(),
 			'assets/js/nav.js?' . time(),
 			'vendor/magnific-popup/jquery.magnific-popup.min.js',
@@ -60,6 +60,10 @@ $config['ci_bootstrap'] = array(
 			'es' => array(
 				'label'	=> 'ES',
 				'value' => 'spanish'
+			),
+			'en' => array(
+				'label'	=> 'EN',
+				'value' => 'english'
 			),
 		)
 	),

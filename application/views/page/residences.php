@@ -9,7 +9,7 @@
 					<h2 class="text-white titleResidence d-block d-md-none text-center"><b><?php echo $Relement->title?></b></h2>
 					<p class="ml-5 text-white paragraphResidence h6 text-justify d-none d-md-block"><?php echo $Relement->descriptionResidence?></p>
 					<p class="text-white paragraphResidence h6 text-justify d-block d-md-none px-3">Las residencias de El Careyes tienen detalles únicos que te harán vivir una nueva experiencia</p>
-					<button type="button" class="ml-5 mt-3 primaryButton d-none d-md-block"><?php echo lang('bookNow') ?></button>
+					<a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-5 mt-3 primaryButton d-none d-md-block"><?php echo lang('bookNow') ?></button></a>
 				</div>
 				<div class="col-md-4 position-absolute residenceIcon" data-aos="zoom-in" data-aos-duration="2000">
 					<p class="text-white moreResidence h6 pr-5 mr-3">MÁS RESIDENCIAS</p>

@@ -1,4 +1,48 @@
-<section class="d-none d-md-block navTablet">
+<section class="navMenuT d-lg-none">
+     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+  <a href="<?php echo base_url() ?>"><img class="navbar-brand w-50 ml-5 my-2" src="<?php echo base_url('assets/img/logo.svg') ?>"></a>
+  <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContentTablet" aria-controls="#navbarSupportedContentTablet" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContentTablet">
+    <ul class="mr-auto textnav text-center">
+      <li class="nav-item lin ml-3">
+        <a class="textnav <?php  echo item_menu_active('careyes');?>" href="<?php  echo base_url() . $language; ?>" class="nav-link">EL CAREYES</a>
+      </li>
+      <li class="nav-item lin ml-3">
+        <a class=" textnav <?php echo item_menu_active('reserva');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/reserva" class="nav-link"><?php echo lang('reservations')?></a>
+      </li>
+      <li class="nav-item lin ml-3">
+        <a class=" textnav <?php echo item_menu_active('bienesraices');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/bienesraices" class="nav-link "><?php echo lang('real_estate')?></a>
+      </li>
+      <li class="nav-item lin ml-3">
+        <a class=" textnav <?php echo item_menu_active('costacareyes');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/costacareyes" class="nav-link">COSTA CAREYES</a>
+      </li>
+      <li class="nav-item lin ml-3">
+        <a class=" textnav <?php echo item_menu_active('contacto');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/contacto" class="nav-link"><?php echo lang('contact')?></a>
+      </li>
+    
+        <?php if ( !empty($available_languages) ): ?>
+            <li class="languages lin ml-3">
+                    <li role='menu' class='nav-item lin'>
+                        <?php foreach ($available_languages as $abbr => $item): ?>
+                            <li class="lin">
+                                <a class=" textnav" href="<?php echo lang_url($abbr); ?>">
+                                    <?php echo $item['label']; ?>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </li>
+            </li>
+            <?php endif; ?>
+        </ul>    
+    
+  </div>
+</nav>
+</section>
+
+<section class="displayTablet">
      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <a href="<?php echo base_url() ?>"><img class="navbar-brand w-50 ml-5 my-2" src="<?php echo base_url('assets/img/logo.svg') ?>"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,24 +50,24 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto textnav">
-      <li class="nav-item ml-4">
+    <ul class="navbar-nav ml-auto textnav">
+      <li class="nav-item">
         <a class="textnav <?php  echo item_menu_active('careyes');?>" href="<?php  echo base_url() . $language; ?>" class="nav-link">EL CAREYES</a>
       </li>
-      <li class="nav-item ml-4">
+      <li class="nav-item ml-3">
         <a class=" textnav <?php echo item_menu_active('reserva');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/reserva" class="nav-link"><?php echo lang('reservations')?></a>
       </li>
-      <li class="nav-item ml-4">
+      <li class="nav-item ml-3">
         <a class=" textnav <?php echo item_menu_active('bienesraices');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/bienesraices" class="nav-link "><?php echo lang('real_estate')?></a>
       </li>
-      <li class="nav-item ml-4">
+      <li class="nav-item ml-3">
         <a class=" textnav <?php echo item_menu_active('costacareyes');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/costacareyes" class="nav-link">COSTA CAREYES</a>
       </li>
-      <li class="nav-item ml-4">
+      <li class="nav-item ml-3">
         <a class=" textnav <?php echo item_menu_active('contacto');?>" href="<?php echo  base_url() ?><?php echo $language; ?>/contacto" class="nav-link"><?php echo lang('contact')?></a>
       </li>
     </ul>
-    <div class="ml-auto mr-3 ">
+    <div class="mr-3 ">
         <?php if ( !empty($available_languages) ): ?>
             <ul class="navbar-nav mr-5 ml-5 languages">
                     <ul role='menu' class='nav-item'>
@@ -49,7 +93,7 @@
       <div class="menu-bg"></div>
       <div class="menu-burger">☰</div>
       <div class="menu-items position-fixed">
-        <p class="" ><img class="img-fluid w-50 position-relative imgMainMenu" src="<?php echo base_url('assets/img/logo.svg') ?>" alt=""></p>
+        <a href="<?php echo base_url() ?>"><p class="" ><img class="img-fluid w-50 position-relative imgMainMenu" src="<?php echo base_url('assets/img/logo.svg') ?>" alt=""></p></a>
         <p class="pb-3" >
           <a class=" textnav h6 <?php  echo item_menu_active('careyes');?>" href="<?php  echo base_url() . $language; ?>" class="nav-link ">EL CAREYES</a>
         </p>

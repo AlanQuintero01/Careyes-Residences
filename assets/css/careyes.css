@@ -10362,14 +10362,14 @@ footer {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .textNow2,
   .textNow {
     font-size: 2.7rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .textNow2,
   .textNow {
     font-size: 3.5rem !important;
@@ -10382,70 +10382,70 @@ footer {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .primaryButton {
     font-size: .7rem !important;
     padding: 7px 12px;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .primaryButton {
     font-size: .8rem !important;
     padding: 7px 12px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navTablet {
     font-size: .8rem !important;
     padding: 7px 12px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .reservationsButton {
     font-size: .58rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .reservationsButton {
     font-size: .7rem !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ttablet {
     font-size: .85rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .ttablet {
     font-size: 1.2rem !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ptablet {
     font-size: .6rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .ptablet {
-    font-size: .9rem !important;
+    font-size: .75rem !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ftablet {
     font-size: .7rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .ftablet {
     font-size: .8rem !important;
   }
@@ -10582,7 +10582,7 @@ footer {
   padding-bottom: 0.7rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .learmore {
     border: 1px solid #DFBE6A;
     border-right: transparent;
@@ -10628,7 +10628,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .textnav {
     font-size: 0.7rem !important;
   }
@@ -10683,20 +10683,20 @@ progress::-webkit-progress-value {
   padding: .3rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   #residenceIcon p {
     font-size: .9rem !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .borderBox {
     padding-bottom: .85rem !important;
     padding-top: .85rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .borderBox {
     padding-bottom: .85rem !important;
     padding-top: .85rem !important;
@@ -10803,7 +10803,7 @@ progress::-webkit-progress-value {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .iconreserv {
     width: 10% !important;
     margin-left: .6rem;
@@ -10811,7 +10811,7 @@ progress::-webkit-progress-value {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .iconreserv {
     width: 10% !important;
     margin-left: .6rem;
@@ -10819,13 +10819,13 @@ progress::-webkit-progress-value {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .iconreserv2 {
     width: 17% !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .iconreserv2 {
     width: 17% !important;
   }
@@ -10833,7 +10833,7 @@ progress::-webkit-progress-value {
 
 @media only screen and (max-width: 380px) {
   .iconreserv2 {
-    width: 19% !important;
+    width: 17% !important;
   }
 }
 
@@ -11142,13 +11142,13 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .fondo-home-about-section h2 {
     font-size: 1.9rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .fondo-home-about-section h2 {
     font-size: 1.9rem  !important;
   }
@@ -11196,25 +11196,25 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   h2 {
     font-size: 2rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   h2 {
     font-size: 2.4rem !important;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   p {
     font-size: .7rem !important;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   p {
     font-size: .7rem !important;
   }
@@ -11230,8 +11230,8 @@ svg#icon-swipe #left {
 
 @media only screen and (max-width: 600px) {
   .slideCoast {
-    bottom: 80%;
-    left: 0%;
+    bottom: 10%;
+    left: 53%;
     position: initial;
   }
 }
@@ -11264,13 +11264,13 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .slideResidences {
     margin-top: 5rem;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 992px) and (max-width: 1026px) {
   .slideResidences {
     margin-top: 5rem;
   }
@@ -11285,6 +11285,12 @@ svg#icon-swipe #left {
 @media only screen and (max-width: 380px) {
   .slideResidences {
     margin-top: 5.8rem !important;
+  }
+}
+
+@media (min-width: 1087px) and (max-width: 1095px) {
+  .textnav {
+    font-size: 0.8rem !important;
   }
 }
 
@@ -11303,7 +11309,7 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .residenceText {
     text-align: left;
     top: 30% !important;
@@ -11360,7 +11366,7 @@ svg#icon-swipe #left {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .residenceIcon {
     text-align: right;
     top: 50%;
@@ -11439,6 +11445,70 @@ svg#icon-swipe #left {
 @media only screen and (max-width: 600px) {
   h2 {
     font-size: 2.2rem !important;
+  }
+}
+
+.lin {
+  display: inline;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .displayTablet {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .fTabletCoast {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slideCoast {
+    bottom: 8%;
+    left: 53%;
+    position: absolute;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .navMenuT {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .ttablet {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .ptablet {
+    font-size: .75rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+  .ftablet {
+    font-size: .8rem !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1026px) {
+  .textnav {
+    font-size: 0.6rem !important;
+  }
+}
+
+@media (min-width: 1027px) and (max-width: 1086px) {
+  .textnav {
+    font-size: 0.7rem !important;
   }
 }
 

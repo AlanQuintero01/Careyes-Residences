@@ -2,7 +2,7 @@
 	<div class="container-fluid slideHome">
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-12 px-0">
-				<div id="carouselHome" class="carousel slide" data-ride="carousel">
+				<div id="carouselHome" class="carousel slide" data-ride="carousel" data-interval="7000">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<div class="container position-absolute homefirst">
@@ -10,7 +10,7 @@
 									<div class="col-md-12" data-aos="zoom-in-right" data-aos-duration="2000">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide1') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 letter2 text-justify "><?php echo lang('paragraphSlide1') ?></p>
-                                    <button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -22,7 +22,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide2') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 text-justify letter2 "><?php echo lang('paragraphSlide2') ?></p>
-                                    <button type="button" class="primaryButton ml-0 "><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -34,7 +34,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide3') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 text-justify letter2"><?php echo lang('paragraphSlide3') ?></p>
-                                    <button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -46,7 +46,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide4') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 text-justify letter2"><?php echo lang('paragraphSlide4') ?></p>
-                                    <button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -59,7 +59,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide5') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 text-justify letter2"><?php echo lang('paragraphSlide5') ?></p>
-                                    <button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -72,7 +72,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide6') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 text-justify letter2"><?php echo lang('paragraphSlide6') ?></p>
-                                    <button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse text-white letter"><b><?php echo lang('titleSlide7') ?></b></h2>
                                     <p class="paragraphCarouse text-white h6 text-justify letter2"><?php echo lang('paragraphSlide7') ?></p>
-                                    <button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-0"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -114,7 +114,7 @@
 	<div class="container-fluid slideHome">
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-12 px-0">
-				<div id="carouselHomeMobile" class="carousel slide" data-ride="carousel">
+				<div id="carouselHomeMobile" class="carousel slide" data-ride="carousel" data-interval="7000">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<div class="container position-absolute homefirst">
@@ -122,7 +122,7 @@
 									<div class="col-md-12" data-aos="zoom-in-right" data-aos-duration="2000">
 										<h2 class="titleCarouse ml-3 text-white"><b><?php echo lang('titleSlide1') ?></b></h2>
                                     <p class=" ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide1'))  ?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -134,7 +134,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse ml-3 text-white"><b><?php echo lang('titleSlide2') ?></b></h2>
                                     <p class="ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide2')) ?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -146,7 +146,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse ml-3 text-white"><b><?php echo lang('titleSlide3') ?></b></h2>
                                     <p class="ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide3')) ?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -158,7 +158,7 @@
 									<div class="col-md-6 position-absolute homefirst">
 										<h2 class="titleCarouse ml-3 text-white"><b><?php echo lang('titleSlide4') ?></b></h2>
                                     <p class="ml-3 text-white font-weight-light text-justify"><?php echo strip_tags(lang('paragraphSlide4')) ?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -170,7 +170,7 @@
 									<div class="col-md-6  position-absolute homefirst">
 										<h2 class=" ml-3 titleCarouse text-white"><b><?php echo lang('titleSlide5') ?></b></h2>
                                     <p class=" ml-3 font-weight-light text-white text-justify"><?php echo strip_tags(lang('paragraphSlide5'))?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -182,7 +182,7 @@
 									<div class="col-md-6  position-absolute homefirst">
 										<h2 class=" ml-3 titleCarouse text-white"><b><?php echo lang('titleSlide6') ?></b></h2>
                                     <p class=" ml-3 font-weight-light text-white text-justify"><?php echo strip_tags(lang('paragraphSlide6'))?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -194,7 +194,7 @@
 									<div class="col-md-6  position-absolute homefirst">
 										<h2 class=" ml-3 titleCarouse text-white"><b><?php echo lang('titleSlide7') ?></b></h2>
                                     <p class=" ml-3 font-weight-light text-white text-justify"><?php echo strip_tags(lang('paragraphSlide7'))?></p>
-                                    <button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button>
+                                    <a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="ml-3 p-2 primaryButton mr-auto"><?php echo lang('bookNow') ?></button></a>
 									</div>
 								</div>
 							</div>
@@ -276,10 +276,10 @@
 											<img src="<?php echo base_url('assets/img/Home/El-Careyes-club-and-residence-Book-Now-Restaurant-la-duna.jpg') ?>" class="img-fluid w-100 m-auto" alt="">
 										</div>
 										<div class="col-md-12">
-											<h2 class="textMark textNow2"><?php echo lang('bookNow') ?></h2>
+											<a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><h2 class="textMark textNow2"><?php echo lang('bookNow2') ?></h2></a>
 										</div>
 										<div class="col-md-2 mt-5 text-center mx-auto iconBar">
-											<a href=""><img class="w-25 img-fluid mx-auto" src="<?php echo base_url('assets/img/iconos/next.png') ?>" alt=""></a>
+											<a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><img class="w-25 img-fluid mx-auto" src="<?php echo base_url('assets/img/iconos/next.png') ?>" alt=""></a>
 										</div>
 										<div class="col-md-12 my-3 mx-auto mr-5">
 											<p class="textMark letter"><?php echo lang('viewAll') ?></p>
@@ -312,7 +312,7 @@
 			<div class="offset-md-1 col-md-3" data-aos="zoom-in" data-aos-duration="2000">
 					<h2 class="letter"><?php echo lang('sectionRealTitle') ?></h2>
 					<p class="text-justify"><?php echo lang('sectionRealparagraph') ?></p>
-					<button type="button" class="primaryButton ml-auto"><?php echo lang('bookNow') ?></button>
+					<a href="https://gc.synxis.com/rez.aspx?Chain=26912" target="_blank"><button type="button" class="primaryButton ml-auto"><?php echo lang('bookNow') ?></button></a>
 			</div>
 			<div class="offset-md-2 col-md-6 px-0 text-right" data-aos="zoom-in" data-aos-duration="2000">
 				<img class="img-fluid" src="<?php echo base_url('assets/img/Home/El-Careyes-Real-estate.jpg') ?>">			
@@ -323,4 +323,5 @@
 
 
 <?php $this->load->view('components/contact'); ?>
+
 
